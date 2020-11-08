@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  8 NOV 2020 09:11
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  8 NOV 2020 11:14
 entering extended mode
 **./logicDesign.tex
 (logicDesign.tex
@@ -1141,12 +1141,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1719--1721
  []
 
 [85]
-Underfull \hbox (badness 10000) in paragraph at lines 1731--1734
+Underfull \hbox (badness 10000) in paragraph at lines 1735--1738
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1753--1757
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1761
 [][]
  []
 
@@ -1155,36 +1155,36 @@ File: img/intermediateExmp.png Graphic file (type bmp)
 <img/intermediateExmp.png>
  [87]
 LaTeX Font Info:    Font shape `TU/XBRoya(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 1767.
+(Font)              scaled to size 8.0pt on input line 1771.
  [88]
-Underfull \hbox (badness 10000) in paragraph at lines 1785--1786
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1790
 [][]
  []
 
 
-LaTeX Warning: Reference `footdir@11' on page 89 undefined on input line 1788.
+LaTeX Warning: Reference `footdir@11' on page 89 undefined on input line 1792.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1801--1802
+Underfull \hbox (badness 10000) in paragraph at lines 1805--1806
 [][]
  []
 
 [89]
-Underfull \hbox (badness 10000) in paragraph at lines 1821--1822
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1826
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1836--1837
+Underfull \hbox (badness 10000) in paragraph at lines 1840--1841
 [][]
  []
 
 [90] [91]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1897.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1897.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1901.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1901.
  (logicDesign.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1897.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1897.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1901.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1901.
 
 Package rerunfilecheck Info: File `logicDesign.out' has not changed.
 (rerunfilecheck)             Checksum: EBA2383FFB8DB6936C2DD5AEB7F31B22;13314.
@@ -1195,7 +1195,7 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1897.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1901.
  ) 
 Here is how much of TeX's memory you used:
  13112 strings out of 414071
