@@ -1,0 +1,298 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  6 NOV 2020 17:27
+entering extended mode
+**./ML.tex
+(ML.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18> (C:\mikTex\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(C:\mikTex\tex/latex/base\size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(C:\mikTex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\mikTex\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(C:\mikTex\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\mikTex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\mikTex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(C:\mikTex\tex/latex/graphics-def\xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(C:\mikTex\tex/latex/iwona\iwona.sty
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
+Package: iwona 2005/10/03 v.1.2 Iwona package (MW)
+\c@mv@iwona=\count171
+\c@mv@iwonabold=\count172
+LaTeX Font Info:    Overwriting symbol font `operators' in version `iwona'
+(Font)                  OT1/cmr/m/n --> OT1/iwonalm/m/n on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `iwona'
+(Font)                  OML/cmm/m/it --> OML/iwonal/m/it on input line 59.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `iwona'
+(Font)                  OMS/cmsy/m/n --> OMS/iwonal/m/n on input line 60.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `iwona'
+(Font)                  OMX/cmex/m/n --> OMX/iwonal/m/n on input line 61.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `iwonabold'
+(Font)                  OT1/cmr/m/n --> OT1/iwonalm/b/n on input line 62.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `iwonabold'
+(Font)                  OML/cmm/m/it --> OML/iwonal/b/it on input line 63.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `iwonabold'
+(Font)                  OMS/cmsy/m/n --> OMS/iwonal/b/n on input line 64.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `iwonabol
+d'
+(Font)                  OMX/cmex/m/n --> OMX/iwonal/b/n on input line 65.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `iwona'
+(Font)                  OT1/cmr/bx/n --> OT1/iwonal/bx/n on input line 67.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `iwona'
+(Font)                  OT1/cmss/m/n --> OT1/iwonal/m/n on input line 68.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `iwona'
+(Font)                  OT1/cmr/m/it --> OT1/iwonal/m/it on input line 69.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `iwona'
+(Font)                  OT1/cmtt/m/n --> OT1/iwonal/m/n on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `iwonabold'
+(Font)                  OT1/cmss/m/n --> OT1/iwonal/bx/n on input line 71.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `iwonabold'
+(Font)                  OT1/cmr/m/it --> OT1/iwonal/bx/it on input line 72.
+) (C:\mikTex\tex/latex/base\fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+iwonal on input line
+ 112.
+
+(C:\mikTex\tex/latex/iwona\t1iwonal.fd
+File: t1iwonal.fd 2008/07/22 v0.995 font definition file for T1/iwonal (MW)
+))
+(C:\mikTex\tex/latex/l3backend\l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-06-29 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count173
+\l__pdf_internal_box=\box45
+\g__pdf_backend_object_int=\count174
+\g__pdf_backend_annotation_int=\count175
+) (ML.aux)
+\openout1 = `ML.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+2.
+
+(C:\mikTex\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+ (ML.toc
+LaTeX Font Info:    Trying to load font information for OT1+iwonalm on input li
+ne 3.
+
+(C:\mikTex\tex/latex/iwona\ot1iwonalm.fd
+File: ot1iwonalm.fd 2005/10/05 v1.2 font definition file for OT1/iwonalm (MW)
+)
+LaTeX Font Info:    Trying to load font information for OML+iwonal on input lin
+e 3.
+
+(C:\mikTex\tex/latex/iwona\omliwonal.fd
+File: omliwonal.fd 2008/07/22 v0.995 font definition file for OML/iwonal (MW)
+)
+LaTeX Font Info:    Trying to load font information for OMS+iwonal on input lin
+e 3.
+
+(C:\mikTex\tex/latex/iwona\omsiwonal.fd
+File: omsiwonal.fd 2008/07/22 v0.995 font definition file for OMS/iwonal (MW)
+)
+LaTeX Font Info:    Trying to load font information for OMX+iwonal on input lin
+e 3.
+
+(C:\mikTex\tex/latex/iwona\omxiwonal.fd
+File: omxiwonal.fd 2008/07/22 v0.995 font definition file for OMX/iwonal (MW)
+))
+\tf@toc=\write3
+\openout3 = `ML.toc'.
+
+ [1
+
+] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 42--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+[5]
+LaTeX Font Info:    Trying to load font information for TS1+iwonal on input lin
+e 77.
+ (C:\mikTex\tex/latex/iwona\ts1iwonal.fd
+File: ts1iwonal.fd 2008/07/22 v0.995 font definition file for TS1/iwonal (MW)
+)
+File: img/overfitting1.jpg Graphic file (type bmp)
+<img/overfitting1.jpg>
+ [6]
+File: img/overfittingGoodModel.jpg Graphic file (type bmp)
+<img/overfittingGoodModel.jpg>
+File: img/overfittingnoise.jpg Graphic file (type bmp)
+<img/overfittingnoise.jpg>
+ [7]
+File: img/overfittingLargerError.jpg Graphic file (type bmp)
+<img/overfittingLargerError.jpg>
+ [8]
+File: img/underfittingUpwardSlope.jpg Graphic file (type bmp)
+<img/underfittingUpwardSlope.jpg>
+File: img/underfittingGoodModel.jpg Graphic file (type bmp)
+<img/underfittingGoodModel.jpg>
+ [9]
+File: img/underfittingBadModel.jpg Graphic file (type bmp)
+<img/underfittingBadModel.jpg>
+ [10]
+File: img/underfittingGoodModel.jpg Graphic file (type bmp)
+<img/underfittingGoodModel.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--183
+
+ []
+
+File: img/testset.jpg Graphic file (type bmp)
+<img/testset.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--188
+
+ []
+
+[11]
+File: img/poorPerform.jpg Graphic file (type bmp)
+<img/poorPerform.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 238--241
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--263
+
+ []
+
+[14] [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+
+ []
+
+File: img/biologicalNN.jpg Graphic file (type bmp)
+<img/biologicalNN.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--386
+
+ []
+
+[17]
+File: img/sumPerceptron.jpg Graphic file (type bmp)
+<img/sumPerceptron.jpg>
+ [18]
+File: img/multiPerceptronModel.jpg Graphic file (type bmp)
+<img/multiPerceptronModel.jpg>
+File: img/inputLayer.jpg Graphic file (type bmp)
+<img/inputLayer.jpg>
+File: img/outputLayer.jpg Graphic file (type bmp)
+<img/outputLayer.jpg>
+File: img/hiddenLayer.jpg Graphic file (type bmp)
+<img/hiddenLayer.jpg>
+ [19]
+File: img/hiddenLayer.jpg Graphic file (type bmp)
+<img/hiddenLayer.jpg>
+File: img/deep_and_none_deep.jpg Graphic file (type bmp)
+<img/deep_and_none_deep.jpg>
+ [20]
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--449
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--456
+
+ []
+
+[21] (ML.aux) ) 
+Here is how much of TeX's memory you used:
+ 1463 strings out of 414071
+ 21167 string characters out of 2901731
+ 254121 words of memory out of 3000000
+ 19115 multiletter control sequences out of 15000+200000
+ 597953 words of font info for 66 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 30i,8n,25p,1171b,310s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on ML.pdf (21 pages).

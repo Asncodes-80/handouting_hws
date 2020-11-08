@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}Foreword}{2}%
+\contentsline {section}{\numberline {2}What is ML}{3}%
+\contentsline {subsection}{\numberline {2.1}What is it used for?}{3}%
+\contentsline {section}{\numberline {3}What are Neural Networks}{4}%
+\contentsline {section}{\numberline {4}Different between Supervised and Unsupervised Learning}{4}%
+\contentsline {subsection}{\numberline {4.1}Supervised Learning}{4}%
+\contentsline {subsubsection}{\numberline {4.1.1}Machine Learning Process}{5}%
+\contentsline {section}{\numberline {5}Overfitting}{6}%
+\contentsline {section}{\numberline {6}Underfitting}{8}%
+\contentsline {section}{\numberline {7}Evaluate Performance}{13}%
+\contentsline {subsection}{\numberline {7.1}Evaluating Performance Classification}{13}%
+\contentsline {subsection}{\numberline {7.2}Evaluating Performance Regression}{15}%
+\contentsline {section}{\numberline {8}Unsupervised Learning}{16}%
+\contentsline {section}{\numberline {9}Artificial Neural Networks}{17}%
+\contentsline {subsection}{\numberline {9.1}Perceptron model}{17}%
+\contentsline {section}{\numberline {10}Activation Functions}{21}%

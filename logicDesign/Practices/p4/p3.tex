@@ -1,0 +1,34 @@
+\documentclass[12pt]{report}
+
+\LARGE\centerline{Practice 4}
+\Large\centerline{Alireza Soltani Neshan}
+\large\centerline{Software student}
+
+
+\begin{document}
+
+\LARGE \textbf{This is a practice 4 solution:}\\
+
+\large \textbf{What is Dual of $A \oplus B \oplus C$?}\\
+
+If you want to get 0 as "False" and 1 as "True" in truth table, with Dual \textbf{Xor} with \textbf{Xnor}, you can use from odd or even qty of 1s, because the Xor is \textbf{odd function} and \textbf{Xnor is even function}!!\\
+There is another way to get Dual of Xor (i.e Xnor), at the first time you should go to solve Xor of input and you can use upside down of Xor, for exp: Xor:1 $\rightarrow$ Xnor: 0.
+
+\begin{table}[ht]\centering
+	\begin{tabular}{ c c c | c | c}
+		A & B & C & $A \oplus B \oplus C$ & $A \odot B \odot C$\\
+		\hline
+		0 & 0 & 0 & 0 &1 \\ 				
+		0 & 0 & 1 & 1 &0 \\
+		0 & 1 & 0 & 1 &0 \\
+		0 & 1 & 1 & 0 &1 \\
+		1 & 0 & 0 & 1 &0 \\
+		1 & 0 & 1 & 0 &1 \\
+		1 & 1 & 0 & 0 &1 \\
+		1 & 1 & 1 & 1 &0 \\
+		
+	\end{tabular}
+\end{table}
+
+
+\end{document}

@@ -1,0 +1,145 @@
+\documentclass[20pt]{article}
+\renewcommand{\baselinestretch}{1.4}
+
+\usepackage[light,math]{iwona}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{xcolor}
+
+
+\usepackage{xepersian}
+
+\settextfont[Scale=1]{XB Roya}
+
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0, 0, 52}
+\definecolor{backcolour}{rgb}{255,255,255}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{blue},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\sffamily\footnotesize\normalsize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=8pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+
+\LARGE\centerline{بررسی انواع جدول ها}
+\Large\centerline{علیرضا سلطانی نشان}
+\Large\centerline{98111033302016}
+\large\centerline{آزمایشگاه پایگاه داده کد درس 23033}
+\large\centerline{استاد بابک فرهادی}
+\large\centerline{99/08/17}
+
+
+
+
+\begin{document}
+
+\tableofcontents
+\newpage
+
+\section{جدوال دائمی}
+
+جداولی هستند که پس از ساخته شدن به صورت دائمی در حافظه ذخیره می شوند که در دفعات بعدی حتی اگر database session هم بعد از بستن Mysql از بین نمیرود تا زمانی که توسط خود برنامه نویس دیتابیست Drop شود.
+
+\begin{LTR}
+	\begin{lstlisting}[language=SQL, caption=SQL permenently table]
+	create table log_login(
+		log_id int unsigned primary key not null,
+	    log_date datetime null	
+	)
+	\end{lstlisting}
+\end{LTR}
+
+
+
+
+
+\section{جداول مشتق شده }
+جدوال مشتق شده که میتوانند از جداول تو در تو
+\footnote{Nested}
+ساخته شده که بواسطه این جداول بتوانیم به نتیجه ای مانند مثال زیر برسیم:
+
+\begin{LTR}
+	\begin{lstlisting}[language=SQL, caption=SQL Derived table]
+select 
+	concat(atr.actor_id, ' -- ', fa.film_id) as "Actor and Film ID",
+    concat(first_name, '-- ', last_name) as "Fullname",
+    title as 'File title',
+    description,
+    release_year,
+    rating    
+from 
+	film_actor as fa join actor as atr on atr.actor_id = fa.actor_id
+	join film as f on f.film_id = fa.film_id
+where 
+	fa.film_id in (select film_id from film_actor where actor_id = 7)
+	\end{lstlisting}
+
+\end{LTR}
+
+
+\section{جداول موقی}
+جداول موقتی \footnote{Temporary Table} دقیقا شبیه جداول واقعی هستند، با این تفاوت که به صورت موقتی یا نامانا میباشند که بعد از بستن دیتابیس session آنها پاک خواهد شد یا اینکه بعد از انجام تراکنشی به طول کامل میتوانند ناپدید شوند.
+
+\begin{LTR}
+\begin{lstlisting}[language=SQL, caption=SQL Temporary table]
+create temporary table langs (
+	language_id int primary key not null,
+    name varchar(10) null,
+    last_update datetime
+);
+
+insert into langs (select * from sakila.language);
+select * from langs;
+
+\end{lstlisting}
+\end{LTR}
+
+
+\section{Views}
+ویو ها در حقیقت جداول مجازی \footnote{Virtual Table }
+میباشند، یعنی به نوع خودشان اصلا جدول نیستند و به صورت یک میانبر
+\begin{LTR}\footnote{Shortcut} \end{LTR}
+در پرسوجوی شما می باشند، که نتیجه کوئری شما در قسمت Views ذخیره خواهند شد و زمانی کاربرد دارد که ما میخواهیم از میان فیلد های زیادی که باعث عدم درک درست جدول میشود بتوانیم به صورت یک چکیده 
+\footnote{abstract}
+از حدول مورد نظر می باشد.
+
+
+\begin{LTR}
+\begin{lstlisting}[language=SQL, caption=SQL Views]
+create view acter_in_a_film
+as
+select 
+	concat(atr.actor_id, ' -- ', fa.film_id) as "Actor and Film ID",
+    concat(first_name, '-- ', last_name) as "Fullname",
+    title as 'File title',
+    description,
+    release_year,
+    rating    
+from 
+	film_actor as fa join actor as atr on atr.actor_id = fa.actor_id
+	join film as f on f.film_id = fa.film_id
+where 
+	fa.film_id in (select film_id from film_actor where actor_id = 7)
+\end{lstlisting}
+\end{LTR}
+
+
+\end{document}
