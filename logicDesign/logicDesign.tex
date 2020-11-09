@@ -2043,7 +2043,10 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 	\begin{equation}
 		F = (X+Y+Z)(X + \bar{Y} + \bar{Z})(\bar{X} + \bar{Y} + Z)
 	\end{equation}
-
+	
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/maxTermGate.png}}
+\end{figure}
 
 
 \newpage
@@ -2103,6 +2106,43 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 	\centerline{\includegraphics[width=100pt]{img/venn_diagram_solution_2_max_term.jpg}}
 \end{figure}
 
+\newpage
+
+\textbf{مثال سوم:} \\
+
+\begin{LTR}
+	\begin{tabular}{ c c }
+			\begin{tabular}{ c c c | c }		
+			X & Y & Z & F \\
+			\hline
+			  0 & 0  & 0 &0 \\	
+			  0 & 0  & 1 &0 \\
+			  0 & 1  & 0 &1 \\
+			  0 & 1  & 1 &1 \\
+			  1 & 0  & 0 &0 \\
+			  1 & 0  & 1 &1 \\
+			  1 & 1  & 0 &0 \\
+			  1 & 1  & 1 &1 \\
+		\end{tabular}&
+		
+		\begin{tabular}{c c c | c | c }		
+			X & Y & Z & Max Terms BF & F \\
+			\hline
+			 0 & 0  & 0 & $X + Y + Z$ &0 \\	
+			 0 & 0  & 1 & $ X + Y + \bar{Z} $ &0 \\
+			 1 & 0  & 0 & $ \bar{X} + Y + Z $ &0 \\
+			 1 & 1  & 0 & $ \bar{X} + \bar{Y} + Z $ &0 \\
+		\end{tabular}		
+	\end{tabular}
+\end{LTR}
+
+\begin{equation}
+	F = (X + Y + Z).(X + Y + \bar{Z}).(\bar{X} + Y + Z).(\bar{X} + \bar{Y} + Z)
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=85pt]{img/max_term_sulotion_3.png}}
+\end{figure}
 
 
 

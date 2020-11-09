@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  9 NOV 2020 16:44
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  9 NOV 2020 16:54
 entering extended mode
 **./logicDesign.tex
 (logicDesign.tex
@@ -1285,18 +1285,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 2000--2012
 [][]
  []
 
-[97] [98]
+[97]
+File: img/maxTermGate.png Graphic file (type bmp)
+<img/maxTermGate.png>
+ [98]
 File: img/venn_diagram_maxterm.jpg Graphic file (type bmp)
 <img/venn_diagram_maxterm.jpg>
  [99]
 File: img/venn_diagram_solution_2_max_term.jpg Graphic file (type bmp)
 <img/venn_diagram_solution_2_max_term.jpg>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2129.
  [100]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2129.
+Underfull \hbox (badness 10000) in paragraph at lines 2111--2112
+[][]
+ []
+
+File: img/max_term_sulotion_3.png Graphic file (type bmp)
+<img/max_term_sulotion_3.png>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2182.
+[101]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2182.
  (logicDesign.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2129.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2129.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2182.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2182.
 
 Package rerunfilecheck Info: File `logicDesign.out' has not changed.
 (rerunfilecheck)             Checksum: 84B63421649D36EE5EE42FE08EBEBE4A;13929.
@@ -1307,15 +1317,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2129.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2182.
  ) 
 Here is how much of TeX's memory you used:
- 13148 strings out of 414071
- 255291 string characters out of 2901731
+ 13160 strings out of 414071
+ 255583 string characters out of 2901731
  606053 words of memory out of 3000000
- 30575 multiletter control sequences out of 15000+200000
+ 30585 multiletter control sequences out of 15000+200000
  534785 words of font info for 64 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,15n,74p,1213b,420s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on logicDesign.pdf (100 pages).
+Output written on logicDesign.pdf (101 pages).
