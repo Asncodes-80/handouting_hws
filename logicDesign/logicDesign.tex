@@ -1356,6 +1356,10 @@ $Z'W + Y$\\
 \subsubsection{Term Min}
 	به هر \textbf{Term Product} گفته میشود که حداقل یکی از آنها True یا 1 باشند.
 
+
+\subsubsection{Term Max}
+به \textbf{Term Sum } هایی گفته میشود که حداقل در یک جا تابع خروجی صفر را داشته باشد، و هر جایی که ورودی در آن برابر یک بود باید به صورت not نشان داده شود و آن ورودی که صفر است را بایسیتی به صورت عادی در بولین فرم نمایش دهیم.
+
 \raggedleft
 \justifying
 \subsubsection{Product of Sum SoP}
@@ -1877,12 +1881,48 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 \end{equation}
 \newpage
 
+مثال سوم:\\
+\begin{LTR}
+	\begin{tabular}{ c c }
+			\begin{tabular}{ c c c | c }		
+			X & Y & Z & G \\
+			\hline
+			  0 & 0  & 0 &0 \\	
+			  0 & 0  & 1 &0 \\
+			  0 & 1  & 0 &1 \\
+			  0 & 1  & 1 &0 \\
+			  1 & 0  & 0 &1 \\
+			  1 & 0  & 1 &0 \\
+			  1 & 1  & 0 &0 \\
+			  1 & 1  & 1 &1 \\
+		\end{tabular}&
+		
+		\begin{tabular}{c c c | c | c }		
+			X & Y & Z & Min Terms & G \\
+			\hline
+			0 & 1  & 0  & $\bar{X} Y \bar{Z}$  &1 \\
+			1 & 0  & 0 & $ X \bar{Y}  \bar{Z}$  &1 \\
+		  	1 & 1  & 1  & $X Y Z$  &1 \\
+		\end{tabular}		
+	\end{tabular}
+\end{LTR}
+\hfill \break 
 
+\begin{equation}
+	G = (\bar{X} Y \bar{Z}) + (X \bar{Y}  \bar{Z}) + (X Y Z)
+\end{equation}
 
+\raggedleft
+\justifying
+حالا با استفاده از گیت رسم شده بالا میتوانیم هر ورودی جدول درستی را در این گیت بگذاریم و به نتیجه تابع داده شده برسیم.
 
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/mintermgates1.png}}
+\end{figure}
 
-
-
+\raggedleft
+\justifying
+\subsection{diagram term Min}
 
 
 

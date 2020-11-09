@@ -54,12 +54,14 @@
 \contentsline {subsubsection}{\numberline {2.6.2}Term Product}{71}{subsubsection.2.6.2}%
 \contentsline {subsubsection}{\numberline {2.6.3}Term Sum}{72}{subsubsection.2.6.3}%
 \contentsline {subsubsection}{\numberline {2.6.4}Term Min}{72}{subsubsection.2.6.4}%
-\contentsline {subsubsection}{\numberline {2.6.5}Product of Sum SoP}{72}{subsubsection.2.6.5}%
-\contentsline {subsubsection}{\numberline {2.6.6}Sum of Product PoS}{73}{subsubsection.2.6.6}%
-\contentsline {subsubsection}{\numberline {2.6.7}خودت را امتحان کن}{74}{subsubsection.2.6.7}%
+\contentsline {subsubsection}{\numberline {2.6.5}Term Max}{72}{subsubsection.2.6.5}%
+\contentsline {subsubsection}{\numberline {2.6.6}Product of Sum SoP}{73}{subsubsection.2.6.6}%
+\contentsline {subsubsection}{\numberline {2.6.7}Sum of Product PoS}{73}{subsubsection.2.6.7}%
+\contentsline {subsubsection}{\numberline {2.6.8}خودت را امتحان کن}{74}{subsubsection.2.6.8}%
 \contentsline {subsection}{\numberline {2.7}Low Dual}{74}{subsection.2.7}%
 \contentsline {subsubsection}{\numberline {2.7.1}Dual Self}{75}{subsubsection.2.7.1}%
 \contentsline {subsubsection}{\numberline {2.7.2}اصل Duality}{76}{subsubsection.2.7.2}%
 \contentsline {subsection}{\numberline {2.8}خاصیت های گزاره ها}{76}{subsection.2.8}%
 \contentsline {subsection}{\numberline {2.9}Gates}{78}{subsection.2.9}%
 \contentsline {subsection}{\numberline {2.10}Functions Intermediate}{86}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}diagram term Min}{92}{subsection.2.11}%

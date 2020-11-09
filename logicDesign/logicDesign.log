@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  8 NOV 2020 16:03
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  9 NOV 2020 14:27
 entering extended mode
 **./logicDesign.tex
 (logicDesign.tex
@@ -1039,57 +1039,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 1344--1347
  []
 
 [71]
-Underfull \hbox (badness 10000) in paragraph at lines 1362--1363
+Underfull \hbox (badness 10000) in paragraph at lines 1366--1367
 [][]
  []
 
 [72]
-Underfull \hbox (badness 10000) in paragraph at lines 1369--1370
+Underfull \hbox (badness 10000) in paragraph at lines 1373--1374
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1374
+Underfull \hbox (badness 10000) in paragraph at lines 1376--1378
 [][]
  []
 
 [73]
-Overfull \hbox (7.87207pt too wide) in paragraph at lines 1384--1394
+Overfull \hbox (7.87207pt too wide) in paragraph at lines 1388--1398
  [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1400--1401
+Underfull \hbox (badness 10000) in paragraph at lines 1404--1405
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1408--1409
+Underfull \hbox (badness 10000) in paragraph at lines 1412--1413
 [][]
  []
 
 [74]
-Underfull \hbox (badness 10000) in paragraph at lines 1419--1421
+Underfull \hbox (badness 10000) in paragraph at lines 1423--1425
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1426--1430
+Underfull \hbox (badness 10000) in paragraph at lines 1430--1434
 [][]
  []
 
 [75]
-Underfull \hbox (badness 10000) in paragraph at lines 1453--1454
+Underfull \hbox (badness 10000) in paragraph at lines 1457--1458
 [][]
  []
 
 [76] [77]
-Underfull \hbox (badness 10000) in paragraph at lines 1508--1511
+Underfull \hbox (badness 10000) in paragraph at lines 1512--1515
 [][]
  []
 
 [78]
-Underfull \hbox (badness 10000) in paragraph at lines 1550--1551
+Underfull \hbox (badness 10000) in paragraph at lines 1554--1555
 [][]
  []
 
@@ -1101,67 +1101,67 @@ File: img/solAndGate.png Graphic file (type bmp)
 File: img/sol2AndGate.png Graphic file (type bmp)
 <img/sol2AndGate.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1587--1588
+Underfull \hbox (badness 10000) in paragraph at lines 1591--1592
 [][]
  []
 
 [80]
-Underfull \hbox (badness 10000) in paragraph at lines 1589--1590
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1594
 [][]
  []
 
 File: img/andGateEmp2.png Graphic file (type bmp)
 <img/andGateEmp2.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1597--1598
+Underfull \hbox (badness 10000) in paragraph at lines 1601--1602
 [][]
  []
 
 File: img/solAndExmp2.png Graphic file (type bmp)
 <img/solAndExmp2.png>
 [81]
-Underfull \hbox (badness 10000) in paragraph at lines 1635--1636
+Underfull \hbox (badness 10000) in paragraph at lines 1639--1640
 [][]
  []
 
 [82]
 LaTeX Font Info:    Font shape `TU/XBRoya(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 1640.
+(Font)              scaled to size 7.0pt on input line 1644.
 LaTeX Font Info:    Font shape `TU/XBRoya(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 1642.
+(Font)              scaled to size 8.0pt on input line 1646.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 1642.
+(Font)              <8> on input line 1646.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 1642.
+(Font)              <6> on input line 1646.
 LaTeX Font Info:    Font shape `TU/XBRoya(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 1642.
+(Font)              scaled to size 6.0pt on input line 1646.
  [83]
-Underfull \hbox (badness 10000) in paragraph at lines 1676--1677
+Underfull \hbox (badness 10000) in paragraph at lines 1680--1681
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1692--1693
+Underfull \hbox (badness 10000) in paragraph at lines 1696--1697
 [][]
  []
 
 
-Overfull \hbox (28.23161pt too wide) in paragraph at lines 1696--1716
+Overfull \hbox (28.23161pt too wide) in paragraph at lines 1700--1720
  [][][] 
  []
 
 [84]
-Underfull \hbox (badness 10000) in paragraph at lines 1723--1725
+Underfull \hbox (badness 10000) in paragraph at lines 1727--1729
 [][]
  []
 
 [85]
-Underfull \hbox (badness 10000) in paragraph at lines 1739--1742
+Underfull \hbox (badness 10000) in paragraph at lines 1743--1746
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1761--1765
+Underfull \hbox (badness 10000) in paragraph at lines 1765--1769
 [][]
  []
 
@@ -1170,55 +1170,73 @@ File: img/intermediateExmp.png Graphic file (type bmp)
 <img/intermediateExmp.png>
  [87]
 LaTeX Font Info:    Font shape `TU/XBRoya(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 1775.
+(Font)              scaled to size 8.0pt on input line 1779.
  [88]
-Underfull \hbox (badness 10000) in paragraph at lines 1793--1794
+Underfull \hbox (badness 10000) in paragraph at lines 1797--1798
 [][]
  []
 
 
-LaTeX Warning: Reference `footdir@11' on page 89 undefined on input line 1796.
+LaTeX Warning: Reference `footdir@11' on page 89 undefined on input line 1800.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1809--1810
+Underfull \hbox (badness 10000) in paragraph at lines 1813--1814
 [][]
  []
 
 [89]
-Underfull \hbox (badness 10000) in paragraph at lines 1829--1830
+Underfull \hbox (badness 10000) in paragraph at lines 1833--1834
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1844--1845
+Underfull \hbox (badness 10000) in paragraph at lines 1848--1849
 [][]
  []
 
 [90] [91]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1905.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1905.
+Underfull \hbox (badness 10000) in paragraph at lines 1884--1885
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1909--1910
+[][]
+ []
+
+File: img/mintermgates1.png Graphic file (type bmp)
+<img/mintermgates1.png>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1945.
+[92] [93]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1945.
  (logicDesign.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1905.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1905.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1945.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1945.
 
-Package rerunfilecheck Info: File `logicDesign.out' has not changed.
-(rerunfilecheck)             Checksum: EBA2383FFB8DB6936C2DD5AEB7F31B22;13314.
 
+
+Package rerunfilecheck Warning: File `logicDesign.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `logicDesign.out':
+(rerunfilecheck)             Before: 6F5D3C93B0CEA50837DD38E1D03F9A42;13458
+(rerunfilecheck)             After:  1B79F69B63171EEF93557BC2C07912E0;13458.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1905.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1945.
  ) 
 Here is how much of TeX's memory you used:
- 13112 strings out of 414071
- 254217 string characters out of 2901731
+ 13118 strings out of 414071
+ 254351 string characters out of 2901731
  606053 words of memory out of 3000000
- 30545 multiletter control sequences out of 15000+200000
+ 30550 multiletter control sequences out of 15000+200000
  534785 words of font info for 64 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,15n,74p,1213b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on logicDesign.pdf (91 pages).
+Output written on logicDesign.pdf (93 pages).
