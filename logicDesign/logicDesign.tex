@@ -1774,6 +1774,7 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 
 \raggedleft
 \justifying
+\subsection{تمارین مین ترم ها}
 با توجه به نتايج تابع G با استفاده از توابع Term Min تابع جدول را بدست آورید.
 \footnote{
 در حقیقت Term Min هایی که در نظر داریم بایستی \textbf{Form Boolean} آن ورودی ها را اول بنویسیم و در قسمت هایی که تابع داده شده حداقل یک بار یک بوده است Term Mid ها بدست خواهد آمد.}
@@ -1908,6 +1909,8 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 \end{LTR}
 \hfill \break 
 
+\newpage
+
 \begin{equation}
 	G = (\bar{X} Y \bar{Z}) + (X \bar{Y}  \bar{Z}) + (X Y Z)
 \end{equation}
@@ -1917,12 +1920,129 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 حالا با استفاده از گیت رسم شده بالا میتوانیم هر ورودی جدول درستی را در این گیت بگذاریم و به نتیجه تابع داده شده برسیم.
 
 \begin{figure}[htbp]\centering
-	\centerline{\includegraphics[width=100pt]{img/mintermgates1.png}}
+	\centerline{\includegraphics[width=150pt]{img/mintermgates1.png}}
 \end{figure}
+
+\newpage
 
 \raggedleft
 \justifying
 \subsection{diagram term Min}
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=150pt]{img/venn_diagram_minterm.jpg}}
+\end{figure}
+
+برای جدول زیر نمودار وِن و تابع را بنویسید\\
+
+
+\begin{LTR}
+	\begin{tabular}{c c | c }		
+		X & Y & F \\
+		\hline
+		0 & 0 & 0\\
+		0 & 1 & 1\\
+		1 & 0 & 1\\
+		1 & 1 & 0\\
+	\end{tabular}		
+
+\end{LTR}
+
+\begin{equation}
+	F = (\bar{X} Y) + (X \bar{Y})
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=150pt]{img/venn_diagram_solution_1.jpg}}
+\end{figure}
+
+\newpage
+
+
+
+
+مثال پنجم:\\
+\begin{LTR}
+	\begin{tabular}{ c c }
+			\begin{tabular}{ c c c | c }		
+			X & Y & Z & F \\
+			\hline
+			  0 & 0  & 0 &0 \\	
+			  0 & 0  & 1 &0 \\
+			  0 & 1  & 0 &1 \\
+			  0 & 1  & 1 &1 \\
+			  1 & 0  & 0 &0 \\
+			  1 & 0  & 1 &1 \\
+			  1 & 1  & 0 &0 \\
+			  1 & 1  & 1 &1 \\
+		\end{tabular}&
+		
+		\begin{tabular}{c c c | c | c }		
+			X & Y & Z & Min Terms & F \\
+			\hline
+			0 & 1  & 0 & $\bar{X} Y \bar{Z}$ &1 \\
+			0 & 1  & 1 & $\bar{X} Y Z$ &1 \\
+			1 & 0  & 1 & $X \bar{Y} Z$ &1 \\
+			1 & 1  & 1 & $X Y Z $&1 \\
+		\end{tabular}		
+	\end{tabular}
+\end{LTR}
+
+\begin{equation}
+	F = (\bar{X} Y \bar{Z}) + (\bar{X} Y Z)+ (X \bar{Y} Z) + (X Y Z)
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/gates_minterm_5.png}}
+\end{figure}
+
+\newpage
+
+\subsection{تمارین ماکس ترم ها}
+در ماکسترم ها همانطور که در صفحات قبلی توضیح داده شد، اگر مسئله به ما تابعی داده بود، توسط آن تابع به دنبال خروجی هایی میگردیم که برابر با صفر شده باشد، به طور کلی ماکس ترم به سام ترم هایی گفته می شود که حداقل در یک حالت برابر با صفر میباشند.
+
+\begin{LTR}
+	\begin{tabular}{c c }
+		\begin{tabular}{ c c c | c }		
+	X & Y & Z & F \\
+	\hline
+	0 & 0  & 0 &0 \\	
+	0 & 0  & 1 &1 \\
+	0 & 1  & 0 &1 \\
+	0 & 1  & 1 &0 \\
+	1 & 0  & 0 &1 \\
+	1 & 0  & 1 &1 \\
+	1 & 1  & 0 &0 \\
+	1 & 1  & 1 &1 \\
+	\end{tabular}&
+	
+	\begin{tabular}{ c c c | c }		
+	X & Y & Z & Max Term BF\\
+	\hline
+	0 & 0  & 0 & $X + Y + Z$\\	
+	0 & 1  & 1 & $X + \bar{Y} + \bar{Z}$\\
+	1 & 1  & 0 & $\bar{X} + \bar{Y} + Z $\\
+	\end{tabular}\\
+	\hline
+
+	\end{tabular}
+\end{LTR}
+	\begin{equation}
+		F = (X+Y+Z)(X + \bar{Y} + \bar{Z})(\bar{X} + \bar{Y} + Z)
+	\end{equation}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

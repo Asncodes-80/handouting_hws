@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  9 NOV 2020 14:27
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  9 NOV 2020 16:07
 entering extended mode
 **./logicDesign.tex
 (logicDesign.tex
@@ -624,7 +624,7 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 ) [1
 
-] [2] [3])
+] [2] [3] [4])
 \tf@toc=\write4
 \openout4 = `logicDesign.toc'.
 
@@ -633,7 +633,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 [][]
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 [][]
  []
@@ -643,12 +643,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--46
 [][]
  []
 
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 [][]
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 [][]
  []
@@ -1170,73 +1170,86 @@ File: img/intermediateExmp.png Graphic file (type bmp)
 <img/intermediateExmp.png>
  [87]
 LaTeX Font Info:    Font shape `TU/XBRoya(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 1779.
+(Font)              scaled to size 8.0pt on input line 1780.
  [88]
-Underfull \hbox (badness 10000) in paragraph at lines 1797--1798
+Underfull \hbox (badness 10000) in paragraph at lines 1798--1799
 [][]
  []
 
 
-LaTeX Warning: Reference `footdir@11' on page 89 undefined on input line 1800.
+LaTeX Warning: Reference `footdir@11' on page 89 undefined on input line 1801.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1813--1814
+Underfull \hbox (badness 10000) in paragraph at lines 1814--1815
 [][]
  []
 
 [89]
-Underfull \hbox (badness 10000) in paragraph at lines 1833--1834
+Underfull \hbox (badness 10000) in paragraph at lines 1834--1835
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1848--1849
+Underfull \hbox (badness 10000) in paragraph at lines 1849--1850
 [][]
  []
 
 [90] [91]
-Underfull \hbox (badness 10000) in paragraph at lines 1884--1885
+Underfull \hbox (badness 10000) in paragraph at lines 1885--1886
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1909--1910
+Underfull \hbox (badness 10000) in paragraph at lines 1910--1911
 [][]
  []
 
+[92]
 File: img/mintermgates1.png Graphic file (type bmp)
 <img/mintermgates1.png>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1945.
-[92] [93]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1945.
+ [93]
+File: img/venn_diagram_minterm.jpg Graphic file (type bmp)
+<img/venn_diagram_minterm.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1935--1936
+[][]
+ []
+
+File: img/venn_diagram_solution_1.jpg Graphic file (type bmp)
+<img/venn_diagram_solution_1.jpg>
+[94]
+Underfull \hbox (badness 10000) in paragraph at lines 1963--1964
+[][]
+ []
+
+File: img/gates_minterm_5.png Graphic file (type bmp)
+<img/gates_minterm_5.png>
+[95]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2065.
+ [96]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2065.
  (logicDesign.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1945.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1945.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2065.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2065.
 
+Package rerunfilecheck Info: File `logicDesign.out' has not changed.
+(rerunfilecheck)             Checksum: 4B995DEE6CBE65C42F503C9138ED3699;13856.
 
-
-Package rerunfilecheck Warning: File `logicDesign.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `logicDesign.out':
-(rerunfilecheck)             Before: 6F5D3C93B0CEA50837DD38E1D03F9A42;13458
-(rerunfilecheck)             After:  1B79F69B63171EEF93557BC2C07912E0;13458.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1945.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2065.
  ) 
 Here is how much of TeX's memory you used:
- 13118 strings out of 414071
- 254351 string characters out of 2901731
+ 13136 strings out of 414071
+ 254867 string characters out of 2901731
  606053 words of memory out of 3000000
- 30550 multiletter control sequences out of 15000+200000
+ 30565 multiletter control sequences out of 15000+200000
  534785 words of font info for 64 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,15n,74p,1213b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on logicDesign.pdf (93 pages).
+Output written on logicDesign.pdf (96 pages).

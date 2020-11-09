@@ -64,4 +64,6 @@
 \contentsline {subsection}{\numberline {2.8}خاصیت های گزاره ها}{76}{subsection.2.8}%
 \contentsline {subsection}{\numberline {2.9}Gates}{78}{subsection.2.9}%
 \contentsline {subsection}{\numberline {2.10}Functions Intermediate}{86}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}diagram term Min}{92}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.11}تمارین مین ترم ها}{88}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}diagram term Min}{94}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}تمارین ماکس ترم ها}{96}{subsection.2.13}%
