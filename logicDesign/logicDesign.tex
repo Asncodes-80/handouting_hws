@@ -1997,9 +1997,23 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 
 \newpage
 
+\hfill \break 
+\hfill \break 
+\hfill \break 
+\hfill \break 
+\hfill \break 
+\hfill \break 
+\hfill \break 
+\hfill \break 
+\hfill \break 
+\hfill \break 
+\hfill \break 
+\hfill \break 
+
 \subsection{تمارین ماکس ترم ها}
 در ماکسترم ها همانطور که در صفحات قبلی توضیح داده شد، اگر مسئله به ما تابعی داده بود، توسط آن تابع به دنبال خروجی هایی میگردیم که برابر با صفر شده باشد، به طور کلی ماکس ترم به سام ترم هایی گفته می شود که حداقل در یک حالت برابر با صفر میباشند.
 
+\newpage
 \begin{LTR}
 	\begin{tabular}{c c }
 		\begin{tabular}{ c c c | c }		
@@ -2029,6 +2043,71 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 	\begin{equation}
 		F = (X+Y+Z)(X + \bar{Y} + \bar{Z})(\bar{X} + \bar{Y} + Z)
 	\end{equation}
+
+
+
+\newpage
+
+در تعریف ماکسترم باید توجه کنیم که زمانی یک ماکسترم، ماکسترم است که، بين متغير ها جمع يا OR باشد، فرقي ندارد که به صورت not يا حالت عادي باشد، اما بايستی بررسی ها به تعداد ورودی ها صورت گیرد نه اینکه نقصی در آنها باشد.
+\begin{equation}
+	F(XYZ)=>:
+\end{equation}
+
+\begin{LTR}
+\begin{enumerate}
+	\item 
+		$F(X+ Y + Z)$
+	\item 
+		$F(X+ \bar{Y} + \bar{Z})$	
+		\item 
+		Is not max term
+		$F(X+ \bar{Y})$
+		\item 
+		$F(\bar{X} Y \bar{Z})$
+\end{enumerate}
+\end{LTR}
+
+
+\subsection{diagram term Max}
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/venn_diagram_maxterm.jpg}}
+\end{figure}
+
+
+\newpage
+
+\begin{LTR}
+	\begin{tabular}{ c c }
+		\begin{tabular}{ c c | c }
+			X & Y & F\\
+			\hline
+			0 & 0 & 0\\
+			0 & 1 & 1\\
+			1 & 0 & 1\\
+			1 & 1 & 0\\
+		\end{tabular} & 
+		\begin{tabular}{ c c | c | c }
+			X & Y & Max term BF & F\\
+			\hline
+			0 & 0 & $X + Y$ & 0\\
+			1 & 1 & $\bar{X} + \bar{Y}$& 0\\
+		\end{tabular}
+	\end{tabular}
+\end{LTR}
+
+\begin{equation}
+	F = (X + Y)(\bar{X} + \bar{Y})
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/venn_diagram_solution_2_max_term.jpg}}
+\end{figure}
+
+
+
+
+
+
 
 
 
