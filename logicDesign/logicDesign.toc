@@ -62,9 +62,10 @@
 \contentsline {subsubsection}{\numberline {2.7.1}Dual Self}{76}{subsubsection.2.7.1}%
 \contentsline {subsubsection}{\numberline {2.7.2}اصل Duality}{77}{subsubsection.2.7.2}%
 \contentsline {subsection}{\numberline {2.8}خاصیت های گزاره ها}{77}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Gates}{79}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Functions Intermediate}{87}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}تمارین مین ترم ها}{89}{subsection.2.11}%
-\contentsline {subsection}{\numberline {2.12}diagram term Min}{95}{subsection.2.12}%
-\contentsline {subsection}{\numberline {2.13}تمارین ماکس ترم ها}{97}{subsection.2.13}%
-\contentsline {subsection}{\numberline {2.14}diagram term Max}{99}{subsection.2.14}%
+\contentsline {subsection}{\numberline {2.9}توابع با خروجی چندتایی}{79}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Gates}{82}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Functions Intermediate}{90}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}تمارین مین ترم ها}{92}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}diagram term Min}{98}{subsection.2.13}%
+\contentsline {subsection}{\numberline {2.14}تمارین ماکس ترم ها}{100}{subsection.2.14}%
+\contentsline {subsection}{\numberline {2.15}diagram term Max}{102}{subsection.2.15}%
