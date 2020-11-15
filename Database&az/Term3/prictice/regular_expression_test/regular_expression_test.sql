@@ -16,14 +16,23 @@
 
 
 -- we can use some undersocre sign to define some char in null place 
--- Like below query that return row that has in last part of first_name "A" character :
+-- Like following query that return row that has in last part of first_name "A" character :
 -- _ _ A has 3 part, part 1 and 2 has two null place with any character but in part 3 should be "A" character:
 -- select first_name, last_name from customer where first_name like "__A"
 
--- below query, return all first_name of people that has in the third word "A" and any other places 'S'
+-- following query, return all first_name of people that has in the third word "A" and any other places 'S'
 -- select first_name, last_name from customer where first_name like "__A%s%"
 
 
+-- instead, using of some note in LIKE statement,
+-- you can use regular expression "Regaxp" statement: 
+select concat(first_name, " -- ", last_name) as "FULLNAME" from customer where first_name regexp '^[SA]'
+
+
+
+
+
+-- select distinct first_name, last_name from customer where last_name <> "backer"
 
 
 
