@@ -24,6 +24,8 @@
     product_properties text    
 );*/
 
+
+
 -- more product detail table
 /* create table product_details(
 	serial int unsigned not null primary key auto_increment,
@@ -49,13 +51,13 @@
 ); */
 
 -- more about users as customers
-/* create table cust_details(
+/*create table cust_details(
 	cust_serial int unsigned primary key auto_increment,
     cust_id int unsigned,
     cust_address text,
     cust_phone varchar(12),
     foreign key (cust_id) references customers(cust_id)
-); */
+);*/ 
 
 -- more about favorites of customers 
 /* create table cust_favorites (
