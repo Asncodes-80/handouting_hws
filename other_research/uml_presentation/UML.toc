@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}کاربرد زبان مدل سازی یکپارچه}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Sketch}{2}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}\lr {Forward Design}}{2}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}\lr {Backward Design}}{2}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}طراحی اولیه}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}زبان شبه برنامه نویسی \lr {Pseudo Programming Language}}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}دیاگرام رفتاری}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}\lr {Activity Diagram}}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}\lr {State Machine Diagram}}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}\lr {Use Case Diagram}}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}\lr {Timing Diagram}}{7}{subsection.2.4}%
