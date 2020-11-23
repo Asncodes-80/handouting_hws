@@ -1,5 +1,4 @@
 -- use azdb
-
 -- select * from favorite_food;
 
 -- select fname, lname from person join favorite_food using(person_id)
@@ -22,9 +21,6 @@
 -- insert into products (product_id) values(145892)
 -- insert into products (product_id) values(187587)
 -- insert into products (product_id) values(548845)
-
-
-
 
 
 -- insert into customers(cust_id, cust_username, cust_password, cust_first_name, cust_last_name) 
@@ -54,25 +50,11 @@
 -- select cust_id 'شماره مشتري' , cust_first_name as "نام", cust_last_name as 'نام خانوادگي' from customers 
 -- where cust_last_name = 'حسيني' or cust_last_name = 'محمدي'
 
-
-
-
-
-
-
-
-
-
 -- use azdb;
 
-
-select * from person where fname like 
-
+-- select * from person where fname like 
 
 -- insert into person (fname, lname) values("HAMID", "NARINI")
-
-
-
 
 -- select 
 -- customers.cust_id, 
@@ -82,23 +64,3 @@ select * from person where fname like
 -- payment.product_price_with_tax, 
 -- payment.tnx_date, products.product_name
 -- from customers inner join payment using(cust_id) join products using(product_id)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
