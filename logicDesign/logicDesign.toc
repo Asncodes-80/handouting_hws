@@ -1,0 +1,72 @@
+\contentsline {section}{\numberline {1}اعداد - مبناها - مکمل ها - کدها}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}تصاعد هندسی}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}تبدیل مبنا از 2 به 10 یا بلعکس}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}تبدیل مبنا از 2 به 10}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}تبدیل مبنا از 10 به دو}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}تبدیل مبنا از 10 به هشت و برعکس}{5}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}تبدیل اعداد صحیح از مبنای 10 به 16 و برعکس}{6}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}تبدیل اعشاری دهدهی به دودویی و برعکس}{6}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}تبدیل اعداد مبنای دو به مبنای هشت و برعکس}{8}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}تبدیل مبنا 2 به 16 و برعکس}{9}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}تبدیل اعداد مبنای 8 به 16 و برعکس}{10}{subsection.1.10}%
+\contentsline {subsection}{\numberline {1.11}متمم ها یا (Complements)}{11}{subsection.1.11}%
+\contentsline {subsection}{\numberline {1.12}اعداد علامت دار}{13}{subsection.1.12}%
+\contentsline {subsection}{\numberline {1.13}عملیات روی اعداد بدون علامت در مبناهای مختلف}{15}{subsection.1.13}%
+\contentsline {subsection}{\numberline {1.14}تفریق دو عدد بی علامت در مبنای 2 به روش مستقیم (قرض گرفتن)}{16}{subsection.1.14}%
+\contentsline {subsection}{\numberline {1.15}جمع و تفریق اعداد علامت دار}{16}{subsection.1.15}%
+\contentsline {subsubsection}{\numberline {1.15.1}جمع دو عدد علامت دار در سیستم مکمل 2}{17}{subsubsection.1.15.1}%
+\contentsline {subsection}{\numberline {1.16}Overflow سرریز}{18}{subsection.1.16}%
+\contentsline {subsection}{\numberline {1.17}بازه مختلف ساخت اعداد در سیستم های مختلف با کمک n بیت}{18}{subsection.1.17}%
+\contentsline {subsection}{\numberline {1.18}تشخیص سرریز دو عدد بدون علامت}{18}{subsection.1.18}%
+\contentsline {subsection}{\numberline {1.19}تشخیص سرریز در اعداد علامت دار مکمل 2}{18}{subsection.1.19}%
+\contentsline {subsection}{\numberline {1.20}تفریق دو عدد علاممت دار در سیستم مکمل 2}{20}{subsection.1.20}%
+\contentsline {subsection}{\numberline {1.21}سیستم D2B}{21}{subsection.1.21}%
+\contentsline {subsubsection}{\numberline {1.21.1}کد کردن اعداد دهدهی}{21}{subsubsection.1.21.1}%
+\contentsline {subsubsection}{\numberline {1.21.2}جمع دوعدد BCD}{23}{subsubsection.1.21.2}%
+\contentsline {subsection}{\numberline {1.22}کد گری یا کد انعکاسی}{23}{subsection.1.22}%
+\contentsline {subsubsection}{\numberline {1.22.1}تبدیل باینری 4 بیتی به گری 4 بیت}{24}{subsubsection.1.22.1}%
+\contentsline {subsubsection}{\numberline {1.22.2}تبدیل کد گری به کد باینری}{24}{subsubsection.1.22.2}%
+\contentsline {subsection}{\numberline {1.23}Codes ASCII}{25}{subsection.1.23}%
+\contentsline {subsection}{\numberline {1.24}کد های تشخیص و تصحیح خطا}{27}{subsection.1.24}%
+\contentsline {subsubsection}{\numberline {1.24.1}کدهای تشخیص خطا}{27}{subsubsection.1.24.1}%
+\contentsline {subsection}{\numberline {1.25}Parity Block or Parity Overlapping}{28}{subsection.1.25}%
+\contentsline {subsection}{\numberline {1.26}Checksum Parity}{28}{subsection.1.26}%
+\contentsline {subsubsection}{\numberline {1.26.1}checksum Single-precision}{29}{subsubsection.1.26.1}%
+\contentsline {subsubsection}{\numberline {1.26.2}checksum Double-precision}{29}{subsubsection.1.26.2}%
+\contentsline {subsubsection}{\numberline {1.26.3}checksum Residue}{29}{subsubsection.1.26.3}%
+\contentsline {subsubsection}{\numberline {1.26.4}checksum HoneyWell}{29}{subsubsection.1.26.4}%
+\contentsline {subsection}{\numberline {1.27}کد همینگ یا Code Hamming}{29}{subsection.1.27}%
+\contentsline {subsubsection}{\numberline {1.27.1}فاصله همینگ}{30}{subsubsection.1.27.1}%
+\contentsline {subsubsection}{\numberline {1.27.2}نحوه بدست همینگ کد و تشخیص و تصحیح خطا}{30}{subsubsection.1.27.2}%
+\contentsline {subsubsection}{\numberline {1.27.3}پیدا کردن عدد غلط و تصحیح آن}{32}{subsubsection.1.27.3}%
+\contentsline {subsubsection}{\numberline {1.27.4}نحوه محاسبه تعداد پرتی های همینگ}{33}{subsubsection.1.27.4}%
+\contentsline {section}{\numberline {2}جبر بول - ساده سازی - PI, EPI}{34}{section.2}%
+\contentsline {subsection}{\numberline {2.1}table truth And Or Not }{34}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}استفاده از نمودار وِن برای نمایش منطقی}{34}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Variable Single}{34}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Variable Double}{34}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Variable Three}{35}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}off-set and on-set}{36}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}شمایل گیت های تاکنون گفته شده}{37}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}table truth NAND NOR Xor XNOR }{38}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}چند مورد از اصطلاحات}{39}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Term}{39}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Term Product}{39}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Term Sum}{39}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.4}Term Min}{39}{subsubsection.2.6.4}%
+\contentsline {subsubsection}{\numberline {2.6.5}Term Max}{40}{subsubsection.2.6.5}%
+\contentsline {subsubsection}{\numberline {2.6.6}Product of Sum SoP}{40}{subsubsection.2.6.6}%
+\contentsline {subsubsection}{\numberline {2.6.7}Sum of Product PoS}{40}{subsubsection.2.6.7}%
+\contentsline {subsubsection}{\numberline {2.6.8}1 خودت را امتحان کن}{41}{subsubsection.2.6.8}%
+\contentsline {subsubsection}{\numberline {2.6.9}2 خودت را امتحان کن}{41}{subsubsection.2.6.9}%
+\contentsline {subsection}{\numberline {2.7}Low Dual}{42}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Dual Self}{42}{subsubsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.2}اصل Duality}{43}{subsubsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.8}خاصیت های گزاره ها}{43}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}توابع با خروجی چندتایی}{44}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Gates}{45}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Functions Intermediate}{51}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}تمارین مین ترم ها}{52}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}diagram term Min}{57}{subsection.2.13}%
+\contentsline {subsection}{\numberline {2.14}تمارین ماکس ترم ها}{59}{subsection.2.14}%
+\contentsline {subsection}{\numberline {2.15}diagram term Max}{61}{subsection.2.15}%
