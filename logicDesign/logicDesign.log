@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  26 NOV 2020 11:41
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  26 NOV 2020 21:05
 entering extended mode
 **d:/MyDoc/ShamsipurUniversity/handouting_hws/logicDesign/logicDesign.tex
 (d:/MyDoc/ShamsipurUniversity/handouting_hws/logicDesign/logicDesign.tex
@@ -638,7 +638,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 [][]
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 44--46
 [][]
  []
@@ -648,7 +648,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 [][]
  []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 [][]
  []
@@ -672,7 +672,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--84
 [][]
  []
 
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 [][]
  []
@@ -698,7 +698,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--98
 [][]
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 101--109
 [][]
  []
@@ -718,22 +718,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--175
 [][]
  []
 
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 200--203
 [][]
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 219--220
 [][]
  []
 
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 221--222
 [][]
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 268--269
 [][]
  []
@@ -743,27 +743,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--271
 [][]
  []
 
-
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 286--288
 [][]
  []
 
-[8]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 321--322
 [][]
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 365--367
 [][]
  []
 
-
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 369--373
 [][]
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 392--393
 [][]
  []
@@ -778,24 +778,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 411--414
 [][]
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 415--419
 [][]
  []
 
-[11] [12] [13] [14]
+[12] [13] [14]
 Underfull \hbox (badness 10000) in paragraph at lines 601--603
 [][]
  []
 
-
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 618--621
 [][]
  []
 
 File: img/e1.jpg Graphic file (type bmp)
 <img/e1.jpg>
-[15]
+
 Underfull \hbox (badness 10000) in paragraph at lines 633--637
 [][]
  []
@@ -830,12 +830,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 690--692
 [][]
  []
 
-
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 694--696
 [][]
  []
 
-[18]
+
 Underfull \hbox (badness 10000) in paragraph at lines 697--698
 [][]
  []
@@ -855,12 +855,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 721--726
 [][]
  []
 
-
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 727--728
 [][]
  []
 
-[19]
 File: img/te1.jpg Graphic file (type bmp)
 <img/te1.jpg>
 
@@ -868,12 +867,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 757--759
 [][]
  []
 
-
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 778--784
 [][]
  []
 
-[20] [21]
+[21]
 File: img/codes.jpg Graphic file (type bmp)
 <img/codes.jpg>
 
@@ -891,12 +890,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 851--864
 [][]
  []
 
-
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 880--892
 [][]
  []
 
-[22]
+
 Underfull \hbox (badness 10000) in paragraph at lines 915--916
 [][]
  []
@@ -915,6 +914,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 981--990
 [][]
  []
 
+[25]
 File: img/asciibits.png Graphic file (type bmp)
 <img/asciibits.png>
 File: img/asciitable.png Graphic file (type bmp)
@@ -924,12 +924,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1010--1014
 [][]
  []
 
-[25]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
 [][]
  []
 
-[26]
 File: img/sampleAsciicode.png Graphic file (type bmp)
 <img/sampleAsciicode.png>
 
@@ -937,36 +936,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
 [][]
  []
 
-
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 1057--1058
 [][]
  []
 
-[27]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1066--1067
 [][]
  []
 
 File: img/blockParity.jpg Graphic file (type bmp)
 <img/blockParity.jpg>
-
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
 [][]
  []
 
-[28]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 1087--1088
 [][]
  []
 
 File: img/checksumTypes.jpg Graphic file (type bmp)
 <img/checksumTypes.jpg>
-[29]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1106--1107
 [][]
  []
 
-
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 1130--1131
 [][]
  []
@@ -978,10 +977,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 1139--1141
 [][]
  []
 
-[30]
+[31]
 File: img/h2.jpg Graphic file (type bmp)
 <img/h2.jpg>
- [31]
+ [32]
 Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
 [][]
  []
@@ -991,7 +990,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1159--1179
 [][]
  []
 
-[32]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 1182--1185
 [][]
  []
@@ -1001,22 +1000,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 1186--1190
 [][]
  []
 
-[33]
+[34]
 File: img/venn/venn-single variable.png Graphic file (type bmp)
 <img/venn/venn-single variable.png>
 File: img/venn/venn-double Variable.png Graphic file (type bmp)
 <img/venn/venn-double Variable.png>
- [34]
+ [35]
 File: img/venn/venn-three_variable.png Graphic file (type bmp)
 <img/venn/venn-three_variable.png>
 File: img/venn/solution1.png Graphic file (type bmp)
 <img/venn/solution1.png>
 File: img/venn/solution2.png Graphic file (type bmp)
 <img/venn/solution2.png>
- [35] [36]
+ [36] [37]
 File: img/gates.png Graphic file (type bmp)
 <img/gates.png>
- [37] [38]
+ [38] [39]
 Underfull \hbox (badness 10000) in paragraph at lines 1324--1325
 [][]
  []
@@ -1031,7 +1030,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1352--1355
 [][]
  []
 
-[39]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 1374--1375
 [][]
  []
@@ -1041,7 +1040,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1400--1401
 [][]
  []
 
-[40] [41]
+[41] [42]
 Underfull \hbox (badness 10000) in paragraph at lines 1468--1469
 [][]
  []
@@ -1066,19 +1065,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 1521--1522
 [][]
  []
 
-[42] [43] [44]
+[43] [44] [45]
 Underfull \hbox (badness 10000) in paragraph at lines 1649--1652
 [][]
  []
 
-[45]
+[46]
 Underfull \hbox (badness 10000) in paragraph at lines 1691--1692
 [][]
  []
 
 File: img/andGate.png Graphic file (type bmp)
 <img/andGate.png>
-[46]
+[47]
 File: img/solAndGate.png Graphic file (type bmp)
 <img/solAndGate.png>
 File: img/sol2AndGate.png Graphic file (type bmp)
@@ -1102,7 +1101,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1738--1739
 
 File: img/solAndExmp2.png Graphic file (type bmp)
 <img/solAndExmp2.png>
-[47]
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 1776--1777
 [][]
  []
@@ -1117,7 +1116,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 1783.
 LaTeX Font Info:    Font shape `TU/XBRoya(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 1783.
-[48]
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 1817--1818
 [][]
  []
@@ -1127,12 +1126,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1833--1834
 [][]
  []
 
-[49]
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 1864--1866
 [][]
  []
 
-[50]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 1880--1883
 [][]
  []
@@ -1144,23 +1143,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 1902--1906
 
 File: img/intermediateExmp.png Graphic file (type bmp)
 <img/intermediateExmp.png>
-[51]
+[52]
 LaTeX Font Info:    Font shape `TU/XBRoya(0)/b/n' will be
 (Font)              scaled to size 8.0pt on input line 1917.
- [52]
+ [53]
 Underfull \hbox (badness 10000) in paragraph at lines 1935--1936
 [][]
  []
 
 
-LaTeX Warning: Reference `footdir@11' on page 53 undefined on input line 1938.
+LaTeX Warning: Reference `footdir@11' on page 54 undefined on input line 1938.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1951--1952
 [][]
  []
 
-[53]
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 1971--1972
 [][]
  []
@@ -1170,7 +1169,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1986--1987
 [][]
  []
 
-[54]
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 2022--2023
 [][]
  []
@@ -1180,10 +1179,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 2047--2048
 [][]
  []
 
-[55]
+[56]
 File: img/mintermgates1.png Graphic file (type bmp)
 <img/mintermgates1.png>
- [56]
+ [57]
 File: img/venn_diagram_minterm.jpg Graphic file (type bmp)
 <img/venn_diagram_minterm.jpg>
 
@@ -1193,99 +1192,140 @@ Underfull \hbox (badness 10000) in paragraph at lines 2072--2073
 
 File: img/venn_diagram_solution_1.jpg Graphic file (type bmp)
 <img/venn_diagram_solution_1.jpg>
-[57]
+[58]
 Underfull \hbox (badness 10000) in paragraph at lines 2100--2101
 [][]
  []
 
 File: img/gates_minterm_5.png Graphic file (type bmp)
 <img/gates_minterm_5.png>
-[58]
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
-[][]
- []
-
 [59]
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2149
+[][]
+ []
+
+[60]
 File: img/maxTermGate.png Graphic file (type bmp)
 <img/maxTermGate.png>
- [60]
+ [61]
 File: img/venn_diagram_maxterm.jpg Graphic file (type bmp)
 <img/venn_diagram_maxterm.jpg>
- [61]
+ [62]
 File: img/venn_diagram_solution_2_max_term.jpg Graphic file (type bmp)
 <img/venn_diagram_solution_2_max_term.jpg>
- [62]
+ [63]
 Underfull \hbox (badness 10000) in paragraph at lines 2248--2249
 [][]
  []
 
 File: img/max_term_sulotion_3.png Graphic file (type bmp)
 <img/max_term_sulotion_3.png>
-[63]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2332.
- [64]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2332.
+[64] [65]
+Underfull \hbox (badness 10000) in paragraph at lines 2355--2358
+[][]
+ []
+
+[66]
+Underfull \hbox (badness 10000) in paragraph at lines 2389--2390
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2427--2428
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2435--2436
+[][]
+ []
+
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 2474--2475
+[][]
+ []
+
+[68] [69]
+File: img/analyze/m1.png Graphic file (type bmp)
+<img/analyze/m1.png>
+ [70]
+File: img/analyze/m2.jpg Graphic file (type bmp)
+<img/analyze/m2.jpg>
+ [71]
+File: img/analyze/m3.jpg Graphic file (type bmp)
+<img/analyze/m3.jpg>
+ [72]
+File: img/analyze/m4.jpg Graphic file (type bmp)
+<img/analyze/m4.jpg>
+ [73]
+File: img/analyze/mO1.jpg Graphic file (type bmp)
+<img/analyze/mO1.jpg>
+File: img/analyze/mO2.jpg Graphic file (type bmp)
+<img/analyze/mO2.jpg>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2635.
+ [74]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2635.
  (logicDesign.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2332.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2332.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2635.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2635.
 
 Package rerunfilecheck Info: File `logicDesign.out' has not changed.
-(rerunfilecheck)             Checksum: 370ADEA8674426FE7CB4FC30BE3740FC;14394.
+(rerunfilecheck)             Checksum: 3DCE9019785B3DD6F67DC5BB6F664E23;16790.
 
 
 LaTeX Warning: There were undefined references.
@@ -1293,15 +1333,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2332.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2635.
  ) 
 Here is how much of TeX's memory you used:
- 13163 strings out of 414071
- 255847 string characters out of 2901731
+ 13206 strings out of 414071
+ 256739 string characters out of 2901731
  614061 words of memory out of 3000000
- 30586 multiletter control sequences out of 15000+200000
- 534793 words of font info for 65 fonts, out of 3000000 for 9000
+ 30620 multiletter control sequences out of 15000+200000
+ 534809 words of font info for 67 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 52i,15n,74p,1267b,442s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,15n,74p,1267b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on logicDesign.pdf (64 pages).
+Output written on logicDesign.pdf (74 pages).

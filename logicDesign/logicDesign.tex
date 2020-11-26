@@ -2295,25 +2295,328 @@ $\Pi$
 	\end{tabular}
 \end{LTR}
 
+\subsection{گسترش و ترکیب مسئله}
+در برخی از مسائل
+به ازای ورودی ها، یک تابعی قرار میدهند، که باید براساس
+آن عبارات را باهم ترکیب کنیم.
+
+\begin{LTR}
+	\begin{equation}
+		F = \bar{W}X + W\bar{X}Y
+	\end{equation}
+\end{LTR}
+این عبارت دو قسمت اصلی دارد، یک قسمت اول سمت چپ جمع،
+یک قسمت سمت راست جمع.
+برای هر کدام از قسمت ها بررسی میکنیم که اگر متغیری نات شده بود
+یعنی false
+یا 0 است، و آن متغیری که حالت عادی دارد 1 است.
+
+\begin{LTR}
+	\begin{equation}
+		F = \bar{W}X  
+	\end{equation}
+	
+	\begin{equation}
+		F = W\bar{X}Y 
+	\end{equation}
+\end{LTR}
+
+در قسمت اول هر جایی که
+W
+برابر 0 و
+X
+برابر 1 باشد یعنی
+برابر با 01 باشد را در نظر میگیریم، 
+(مطابق جدول)
+و بولین فرم آن را خواهیم نوشت
+
+\begin{LTR}
+	\begin{tabular}{ c c c c | c }
+		W & X & Y & Z & F \\
+		\hline
+		0 & 0 & 0 & 0 & 0 \\
+		0 & 0 & 0 & 1 & 0 \\
+		0 & 0 & 1 & 0 & 0 \\
+		0 & 0 & 1 & 1 & 0 \\
+	 	\textbf{0} & \textbf{1} & 0 & 0 & 1 \\
+		\textbf{0} & \textbf{1} & 0 & 1 & 1 \\
+		\textbf{0} & \textbf{1} & 1 & 0 & 1 \\
+		\textbf{0} & \textbf{1} & 1 & 1 & 1 \\
+		1 & 0 & 0 & 0 & 0 \\
+		1 & 0 & 0 & 1 & 0 \\
+		\textbf{1} & \textbf{0} & \textbf{1} & 0 & 1 \\
+		\textbf{1} & \textbf{0} & \textbf{1} & 1 & 1 \\
+		1 & 1 & 0 & 0 & 0 \\
+		1 & 1 & 0 & 0 & 0 \\
+		1 & 1 & 1 & 0 & 0 \\
+		1 & 1 & 1 & 1 & 0 
+	\end{tabular}
+\end{LTR}
+\hfill \break
+بعد از این که حالات را در جدول مشخص کردیم حالا نوبت به نوشتن
+فرم بولین آن است:\\
+
+قسمت اول:
+\begin{LTR}
+	\begin{equation}
+		F_{1} = (\bar{W}X\bar{Y}\bar{Z})+
+		(\bar{W}X\bar{Y}Z)+
+		(\bar{W}XY\bar{Z})+
+		(\bar{W}XYZ) 
+	\end{equation}
+\end{LTR}
+
+قسمت دوم:
+\begin{LTR}
+	\begin{equation}
+		F_{2} = (W\bar{X}Y\bar{Z}) + (W\bar{X}YZ) 
+	\end{equation}
+\end{LTR}
+
+در نهایت:
+\begin{LTR}
+	\begin{equation}
+		F = (\bar{W}X\bar{Y}\bar{Z})+
+		(\bar{W}X\bar{Y}Z)+
+		(\bar{W}XY\bar{Z})+
+		(\bar{W}XYZ) + 
+		(W\bar{X}Y\bar{Z}) + 
+		(W\bar{X}YZ)
+	\end{equation}
+\end{LTR}
+\newpage
+
+مسئله:\\
+
+اگر میخواهی در درس هایت موفق باشی، باید
+سر موقع در کلاس هایت حاضر باشی و تکالیفت را کامل 
+و درست انجام بدی:
+\begin{LTR}
+	\begin{equation}
+		G = C . H
+	\end{equation}
+\end{LTR}
+حالا به نظر شما دوست داشتن دانشجو نسبت به پیزا میتواند بستگی
+داشته باشد یا نه؟
+پاسخ، خیر است چون واقعا ربطی به موفقیت دانشجو از نظر کلی
+ندارد و بررسی آن در مسئله بود و نبودش فرقی نمیکند! اما با این حال خواهیم داشت:
+
+\begin{LTR}
+	\begin{equation}
+		G = C.H.P + C.H.\bar{P} 
+	\end{equation}
+\end{LTR}
+
+\subsection{بررسی گسترش مسئله در جمع ها و ضرب ها}
+اگر براساس ورودی های مسئله ما چند ورودی کم داشته باشیم،
+به ازای ورودی های گم شده یا نانوشته
+\textbf{ 2 به توان آن تعداد حالت داریم}
+که آن ورودی هایی که حضور دارند در آن حالات ثابت اند و 
+باقی حالات نشان دهنده حالت های ورودی های نانوشته است.\\
+برای مثال:
+
+\begin{LTR}
+	\begin{equation}
+		- \bar{X}.Z
+	\end{equation}
+
+	\begin{equation}
+		(\bar{X}.Z)*(4)form
+	\end{equation}
+
+	SoP\\
+	\begin{equation}
+		(\textcolor{green}{W}.\textcolor{red}{\bar{X}}.\textcolor{green}{Y}.\textcolor{red}{Z})+
+		(\textcolor{green}{\bar{W}}.\textcolor{red}{\bar{X}}.\textcolor{green}{Y}.\textcolor{red}{Z})+
+		(\textcolor{green}{W}.\textcolor{red}{\bar{X}}.\textcolor{green}{\bar{Y}}.\textcolor{red}{Z})+
+		(\textcolor{green}{\bar{W}}.\textcolor{red}{\bar{X}}.\textcolor{green}{\bar{Y}}.\textcolor{red}{Z})
+	\end{equation}
+
+	PoS\\
+	\begin{equation}
+		\bar{X}+Z
+	\end{equation}
+	\begin{equation}
+		(\textcolor{green}{W}+\textcolor{red}{\bar{X}}+\textcolor{green}{Y}+\textcolor{red}{Z})
+		(\textcolor{green}{\bar{W}}.\textcolor{red}{\bar{X}}+\textcolor{green}{Y}+\textcolor{red}{Z})
+		(\textcolor{green}{W}+\textcolor{red}{\bar{X}}+\textcolor{green}{\bar{Y}}+\textcolor{red}{Z})
+		(\textcolor{green}{\bar{W}}+\textcolor{red}{\bar{X}}+\textcolor{green}{\bar{Y}}+\textcolor{red}{Z})
+	\end{equation}
+\end{LTR}
+\newpage
+
+\begin{equation}
+	F = \bar{Z} + \bar{W}XY
+\end{equation}
+
+\begin{LTR}
+	\begin{tabular}{ c c c c}
+		W & X & Y & Z \\
+		\hline
+		0 & 0 & 0 & 0\\
+		0 & 0 & 0 & 1\\
+		0 & 0 & 1 & 0\\
+		0 & 0 & 1 & 1\\
+	 	0 & 1 & 0 & 0\\
+		0 & 1 & 0 & 1\\
+		0 & 1 & 1 & 0\\
+		0 & 1 & 1 & 1\\
+		1 & 0 & 0 & 0\\
+		1 & 0 & 0 & 1\\
+		1 & 0 & 1 & 0\\
+		1 & 0 & 1 & 1\\
+		1 & 1 & 0 & 0\\
+		1 & 1 & 0 & 0\\
+		1 & 1 & 1 & 0\\
+		1 & 1 & 1 & 1
+	\end{tabular}
+\end{LTR}
+\hfill \break
+
+\begin{equation}
+	F = \bar{Z} \rightarrow{\Sigma(0, 2, 4, 6, 8, 9, 11, 12, 13)}
+\end{equation}
+
+\begin{equation}
+	F = \bar{W}XY \rightarrow{\Sigma(6, 7)}
+\end{equation}
+
+\begin{equation}
+	F = \Sigma(0, 2, 4, 6, 8, 9, 11, 12, 13) + \Sigma(6, 7)
+\end{equation}
+\newpage
+
+\subsection{\lr{Converting to Canonical Sum}تبديل به جمع استاندارد}
+% TODO 4 
+\newpage
+
+
+\subsection{بررسی و آنالیز مدار}
+\subsubsection{مسئله 1}
+مدار زیر را بررسی کنید. 
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=350pt]{img/analyze/m1.png}}
+\end{figure}
+
+\begin{equation}
+	F = (\bar{X}Y)+Z(XY)
+\end{equation}
+
+\begin{equation}
+	SoP= (\bar{X}Y)+(ZX) + (ZY)
+\end{equation}
+
+\begin{equation}
+	PoS= (\bar{X}+Z)(Y+Z)(X+Y)
+\end{equation}
+
+\newpage
+
+\subsubsection{مسئله 2}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=350pt]{img/analyze/m2.jpg}}
+\end{figure}
+
+\begin{equation}
+	F = (X+\bar{Y})Z+(\bar{X}Y\bar{Z})
+\end{equation}
+
+\begin{equation}
+	SoP= XZ+\bar{Y}Z+(\bar{X}Y\bar{Z})
+\end{equation}
+
+\begin{equation}
+	PoS= (Z+X)(Z+\bar{Y})(\bar{X}+Y+\bar{Z})
+\end{equation}
 
 
 
 
+\subsection{سناریو اول}
+تام با سه دوستش، آلیس، باب و چارلی به یک پارتی
+دعوت شده اند، اما تام زمانی میتواند به پارتی برود 
+که فقط یکی از آنها با تام به پارتی بیایند. کدام یک 
+از فرمول های زیر بیانگر این مسئلست؟
+\begin{LTR}
+	\begin{itemize}
+		\item $T = A + B + C$
+		\item $T = A . B . C$
+		\item $T = A\bar{B}\bar{C} + \bar{A}B\bar{C} + \bar{A}\bar{B}C$ 
+		\item $T = \bar{B}\bar{C} + \bar{A}\bar{C} + \bar{A}\bar{B}$ 
+	\end{itemize}
+\end{LTR}
+پاسخ درست گزینه سوم است چرا که مسئله فقط یکی از دوستان تام را گفته که
+اجبار به آمدن دارند.
 
+\subsection{سناریو دوم}
+جیل هم مانند تام به مهمانی دعوت شده 
+که حداقل سه تا آن دوستان باید به مهمانی بیایند، کدام حالت زیر صحیح است؟
 
+\begin{LTR}
+	\begin{itemize}
+		\item $T = \bar{A} + \bar{B} + \bar{C}$
+		\item $T =\bar{A} . \bar{B} . \bar{C}$
+		\item $T = A\bar{B}C + \bar{A}BC + ABC$ 
+		\item $T = BC + AC + AB$ 
+	\end{itemize}
+\end{LTR}
+حالت 4 صحیح است چرا که فقط دو نفر موجودند که با جیل به پارتی بیایند.
 
+\subsection{سطوح مدار}
+مدار هشدار را با ورودی وحشت اضافی در نظر بگیرید:\\
+آلارم زمانی به صدا در میاید که دکمه وحشت روشن باشد
+یا اگر سیستم روشن باشد و شما هیجان زده نبودید و خانه امن نبود.
+ در نظر داشته باشید که زمانی خانه امن نیست که درها و پججره ها و پارکینگ
+ قفل نباشند.
 
+\begin{equation}
+	A = P + N\bar{X}(WDG)
+\end{equation}
+\begin{equation}
+	A_{getting Demorgan} = P + N\bar{X}(\bar{W}+ \bar{D} + \bar{G})
+\end{equation}
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=150pt]{img/analyze/m3.jpg}}
+\end{figure}
 
+اين مدار دارای 3 سطح میباشد
+اما در نظر داشته باشیم که هر چقدر تعداد سطوح (براساس تعداد گیت ها)
+بیشتر باشد سرعت انجام فرایند ها در آن نیز کم میشود.
+مدار بالا دارای سه سطح است که اگر بتوانیم آن را به دو سطح
+برسانیم سرعت آن را نیز افزایش داده ایم.
+پس مدار بالا را به 
+\lr{PoS}
+و
+\lr{SoP}
+تبدیل می کنیم:
 
+\begin{equation}
+	SoP = P + (N\bar{X}\bar{W}) + (N\bar{X}\bar{D}) + (N\bar{X}\bar{G}) 
+\end{equation}
+\begin{equation}
+	PoS = (P+N)(P+\bar{X})(P+\bar{W}+\bar{D}+\bar{G})
+\end{equation}
 
+کدام یک از مدارات زیر سریع تر است؟
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=250pt]{img/analyze/m4.jpg}}
+\end{figure}
 
+مدار سمت راستی زیرا از پیچیدگی کم تر و ورودی های کمتر و بهینه تر بهره میبرد.
 
+\newpage
+\subsection{بهینه کردن مدار ها با تغییر جزئی در آنها}
+\subsubsection{\lr{AND-OR/NAND-NAND in Sum of Product}}
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/analyze/mO1.jpg}}
+\end{figure}
 
-
-
-
-
-
+\subsubsection{\lr{OR-AND/NOR-NOR in Product of Sum}}
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/analyze/mO2.jpg}}
+\end{figure}
 
 
 
@@ -2330,3 +2633,4 @@ $\Pi$
 %\section{سنتز مدار با زبان برنامه نویسی وریلاگ}
 
 \end{document}
+
