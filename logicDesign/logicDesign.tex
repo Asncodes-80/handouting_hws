@@ -2575,7 +2575,7 @@ X
 	A = P + N\bar{X}(WDG)
 \end{equation}
 \begin{equation}
-	A_{getting Demorgan} = P + N\bar{X}(\bar{W}+ \bar{D} + \bar{G})
+	A_{getting Demorgan} = P + N\bar{X}\bar{(\bar{W}+ \bar{D} + \bar{G})}
 \end{equation}
 \begin{figure}[htbp]\centering
 	\centerline{\includegraphics[width=150pt]{img/analyze/m3.jpg}}
@@ -2617,6 +2617,150 @@ X
 \begin{figure}[htbp]\centering
 	\centerline{\includegraphics[width=100pt]{img/analyze/mO2.jpg}}
 \end{figure}
+
+\newpage
+
+\subsection{\lr{Karnough Map}}
+کارنو یک ابزار مناسب برای ساده سازی مدار مورد استفاده قرار میگیرد.
+خروجی کارنو به صورت 
+\lr{SoP}
+و
+\lr{PoS}
+میباشد.
+یکی  از مهمترین مزیت های جدول کارنو این است که مدار را در دوسطح پیاده سازی میکند که این باعث میشود
+تا با ورودی ها و سخت افزار های کم به پرفورمنس بهینه دست یابیم.
+
+\subsubsection{سنتز مدار}
+در این جا تا حدودی با تعریف سنتز مدار آشنا میشویم فقط که یعنی تبدیل فرم منطقی مدار به شکلی که بشود آنرا پیاده سازی کرد\\
+
+جدول کارنو شکل خاصی ندارند و میتوان آنرا به شکل های مختلفی کشید
+(چه بصورت عمودی چه به صورت افقی)
+
+تعداد اعضای خانه های کارنو به تعداد ورودی ها بستگی دارد که حتما توانی از دو است، یعنی اگر
+3
+ورودی داشته باشیم 8 عضو در خانه ها کارنو مپ خواهیم گذاشت.
+اعضای کارنو به صورت صفر ها و یک ها میباشند که مشخص کننده 
+\lr{MinTerm}
+و
+\lr{MaxTerm}
+هستند.
+
+
+شماره گذاری کارنو مپ از سیستم کد گری تبعیت میکند چرا که در کد گری قصد ما فاصله یک بیت
+بین هر عدد بود و در اینجا هم این فاصله یک بیت حائز اهمیت است چرا که به ما کمک می کند
+تا ساده سازی بهتری داشته باشیم و راحت تر بتوانیم عمل 
+\lr{Adjacent}
+را انجام دهیم.
+
+برای مثال:\\
+
+\begin{equation}
+	\Sigma_{XYZ}(1, 4, 5, 6)
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=150pt]{img/karnoughMap/k1.png}}
+\end{figure}
+یا میتوان به فرم دیگر نمایش داد:
+
+\begin{equation}
+	\Sigma_{XYZ}(1, 4, 5, 6)
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=150pt]{img/karnoughMap/k2.png}}
+\end{figure}
+
+همجنین نمایش موارد زیر در کارنومپ
+
+\begin{equation}
+	\Sigma_{WXYZ}(1, 2, 3, 5, 6, 7, 9, 10, 11, 14, 15)
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/karnoughMap/k3.png}}
+\end{figure}
+
+\newpage
+
+
+\subsection{نحوه ساده سازی به کمک کارنو مپ}
+برای ساده سازی چند نکته حائز اهمیت هستند:
+\begin{itemize}
+	\item فقط خانه های مجاور هم میتوانند باهم ساده شوند.
+	\item تعداد اعضایی که برای ساده سازی انتخاب میکنیم باید توانی از 2 باشد.
+\end{itemize}
+
+برای مثال:
+
+\begin{equation}
+	\Sigma_{WXYZ}(0, 2, 4, 5, 6)
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/karnoughMap/k4.png}}
+\end{figure}
+
+ساده سازی:
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/karnoughMap/k4-2.png}}
+\end{figure}
+
+\begin{equation}
+	(\bar{X}\bar{Y}\bar{Z})+(\bar{X}Y\bar{Z})+(XY\bar{Z})+ (X\bar{Y}\bar{Z}) 
+\end{equation}
+\begin{equation}
+	(X\bar{Y}\bar{Z})+(X\bar{Y}Z) 
+\end{equation}
+ساده سازی اول:
+
+\begin{equation}
+	(\bar{Z}(\bar{X}\bar{Y}+\bar{X}Y+XY+X\bar{Y}))
+\end{equation}
+
+\begin{equation}
+	(\bar{Z}(\bar{X}(\bar{Y}+Y)+X(Y+\bar{Y})))
+\end{equation}
+
+\begin{equation}
+	(\bar{Z}(\bar{X}+X))
+\end{equation}
+
+\begin{equation}
+	(\bar{Z})
+\end{equation}
+
+
+ساده سازی دوم:
+
+\begin{equation}
+	(X\bar{Y}\bar{Z})+(X\bar{Y}Z)
+\end{equation}
+
+\begin{equation}
+	(X\bar{Y}(\bar{Z}+Z))
+\end{equation}
+
+\begin{equation}
+	\bar{Z} + (X\bar{Y})
+\end{equation}
+
+
+% TODO MADAR KESHIDE SHAVAD
+
+\subsection{گروه بندی اعضا در جدول کارنو}
+برخی از نکات گروه بندی در کارنو مپ:
+
+\begin{itemize}
+	\item برای گروه بندی حتما اعضا باید مجاور باشند
+	\item برای گروه بندی باید تعداد اعضا توانی از دو باشند
+	\item در گروه بندی تعداد دسته بندی ها و گروه ها مشکلی ندارد که کم باشد اما میتواند اعضای بیشتر را داشته باشد
+	\item هم پوشانی بین اعضا در جدول کارنو مهم نیست و میتواند به عنوان گروهی دیگر در نظر گرفته شود.
+	\item اگر کل جدول یک باشد تمام اعضا در نهایت یک یا true خواهد بود.
+\end{itemize}
+
+
 
 
 

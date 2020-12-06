@@ -1,0 +1,35 @@
+-- create database house_complications;
+-- use house_complications
+
+-- create table users (
+-- 	serial_number int(11) unsigned primary key not null,
+--     user_name varchar(50) null,
+--     natural_code varchar(11) null unique,    
+--     account_serial int(6) unsigned null unique
+-- )
+
+-- create table users_houses(
+-- 	id int unsigned not null primary key,
+--     serial_number int(11) unsigned ,
+--     register_plak varchar(10) null,
+--     address text null,
+--     blue_plak int(4) null,
+--     postal_code varchar(10) null,
+--     region_section_number int(2) null,
+--     Neighbourhood_number int(2) null,
+--     block int(7) unsigned null,
+--     melk_number int(5) unsigned null,    
+--     foreign key (serial_number) references users(serial_number)
+-- );
+-- alter table users_houses add construction_year int(2) unsigned null;
+
+-- create table payment_complications(
+-- 	payment_serial int unsigned not null primary key,
+--     serial_number int(11) unsigned null,
+--     id int unsigned null,
+--     deposit_day_time datetime null,
+-- 	deposit_status enum("accepted, dismiss, expire"),
+--     deposit_price decimal(16, 3) null,
+--     foreign key (serial_number) references users(serial_number),
+--     foreign key (id) references users_houses(id)
+-- );
