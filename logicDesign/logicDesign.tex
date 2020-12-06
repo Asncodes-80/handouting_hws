@@ -2747,7 +2747,9 @@ X
 \end{equation}
 
 
-% TODO MADAR KESHIDE SHAVAD
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/karnoughMap/k4-2-1.png}}
+\end{figure}
 
 \subsection{گروه بندی اعضا در جدول کارنو}
 برخی از نکات گروه بندی در کارنو مپ:
@@ -2758,10 +2760,65 @@ X
 	\item در گروه بندی تعداد دسته بندی ها و گروه ها مشکلی ندارد که کم باشد اما میتواند اعضای بیشتر را داشته باشد
 	\item هم پوشانی بین اعضا در جدول کارنو مهم نیست و میتواند به عنوان گروهی دیگر در نظر گرفته شود.
 	\item اگر کل جدول یک باشد تمام اعضا در نهایت یک یا true خواهد بود.
+	\item هنگام گروه بندی کردن امکان گروه بندی به صورت مورب وجود ندارد
+	\item هنگام گروه بندی اعضا با یکدیگر اگر اعضا در پایین ترین قسمت کارنو بودند میتوانند 
+	با قسمت بالایی کارنو گروه بندی شوند.
 \end{itemize}
 
+نکته:
+برای اینکه بدانیم در هر دسته چند متغیر ساده خواهند شد از فرمول زیر استفاده میکنیم:
+{\Large\begin{equation}
+	\log^{var qty}_{2}
+\end{equation}}
 
 
+برای مثلا اگر در دسته 4 تایی بودیم باتوجه به فرمول فقط دو متغیر ساده میشد، یا مثلا
+اگر در یک دسته 16 تایی قرار بگیریم در صورتی که این دسته کوچکتر از مقدار کل باشد
+4 متغیر ساده خواهد شد.
+
+نکته، اگر در دسته ای مانند شکل زیر قرار گرفتید بدانید نمیتوان به صورت ضربدری یا مورب
+ساده سازی را انجام داد، شرط مجاورت با یکدیگر به جا است.
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/karnoughMap/badFormat.jpg}}
+\end{figure}
+
+\newpage
+
+
+
+به گروه بندی کارنوی زیر دقت کنید، 
+همان طور که معلوم است در دو قسمت یک بسته 4 تایی وجود دارد که در با یکدیگر این دوبسته
+هم پوشانی دارند، و همچنین در خانه 11 با خانه 8 میتواند در یک گروه قرار گیرد.
+همچنین خانه 12 با 8 هم میتواند در یک گروه قرار گیرد.
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/karnoughMap/k5.png}}
+\end{figure}
+
+با توجه به دو گروه چهار تایی و با توجه به فرمول گفته شده میتوان دریافت که این 
+دو گروه فقط 2 متغیر را ساده میکنند.
+حل این قسمت:
+
+\begin{equation}
+	(\bar{W}\bar{X}\bar{Y}Z)+
+	(\bar{W}\bar{X}YZ) + 
+	(\bar{W}X\bar{Y}Z) + 
+	(\bar{W}XYZ)
+\end{equation}
+
+\begin{equation}
+	((\bar{W}\bar{X}(\bar{Y}Z+YZ)) \rightarrow (\bar{W}\bar{X})Z(\bar{Y}+Y))=(\bar{W}\bar{X}Z)
+\end{equation}
+
+\begin{equation}
+	(XZ(\bar{W}\bar{Y}+\bar{W}Y)) \rightarrow (XZ(\bar{W}(\bar{Y}+Y)))=(XZ\bar{W})
+\end{equation}
+
+
+\begin{equation}
+	(\bar{W}\bar{X}Z) + (\bar{W}XZ) \rightarrow (Z(\bar{W}\bar{X}+X\bar{W})) =(Z(\bar{W}(Z+\bar{Z})))= \bar{W}Z
+\end{equation}
 
 
 %\section{گیت ها - منطق سه حالته - هازارد - تکنولوژی های ساخت تراشه}
