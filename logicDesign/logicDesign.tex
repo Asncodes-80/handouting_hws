@@ -1192,6 +1192,8 @@ $2^{4} - 1 >= 11 + 4 true$\\
 
 \raggedleft
 \justifying
+
+% Season 2
 \section{جبر بول - ساده سازی - PI, EPI}
 اساس کار مدار منطقی، جبر بول یا جبر مجموعه ها یا جبر سویچ است. جبر بول به خاطر آقای Boole George نام گذاری شده است، که برای بیان منطق انسان از آن استفاده نمود. بعد از مدتی Shannonn جبر کلیدی یا Algebra Switching را برای نمایش مدارهای کلیدی دو حالتی معرفی کرد یعنی جبر دو ارزشی.
 
@@ -2820,6 +2822,248 @@ X
 	(\bar{W}\bar{X}Z) + (\bar{W}XZ) \rightarrow (Z(\bar{W}\bar{X}+X\bar{W})) =(Z(\bar{W}(Z+\bar{Z})))= \bar{W}Z
 \end{equation}
 
+\newpage
+
+\subsection{بدست آوردن \lr{PoS} با \lr{SoP}}
+وقتی با کارنو مپی رو به رو میشویم که 
+درون آن صفر ها و یک هایی وجود دارد، 
+ما معمولا برای بدست آوردن 
+\lr{Sum of Product}
+از یک ها استفاده میکنیم که در واقع 
+\lr{MinTerm}
+مورد نظر بدست بیاید. در ادامه همین جریان میتوان مین ترم را روی صفر ها هم در نظر بگیریم
+یعنی اینکه صفر ها را از روش مین ترم بدست بیاوریم یا به طور کلی از روش 
+\lr{Sum of Product}
+مانند کانوی زیر:
+
+
+\begin{equation}
+	F = \Sigma(2, 3, 5, 7)
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/karnoughMap/sop_pos_karnough_exp1.png}}
+\end{figure}
+
+گروه بندی کردن صفر ها و یک ها:
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/karnoughMap/sop_pos_karnough_exp1_grp.png}}
+\end{figure}
+بدست آوردن مین ترم های یک:
+\begin{equation}
+	F_{1's} = (\bar{a}bc)+(\bar{a}b\bar{c}) = (\bar{a}b(\bar{c}+c)) = \bar{a}b
+\end{equation}
+
+\begin{equation}
+	F_{1's} = (a\bar{b}c) + (abc) = ac(\bar{b}+b) = ac
+\end{equation}
+
+\begin{equation}
+	F_{1's final} = \bar{a}b + ac
+\end{equation}
+
+بدست آوردن مین ترم های صفر:
+
+\begin{equation}
+	F'_{0's} = (\bar{a}\bar{b}\bar{c})+(\bar{a}\bar{b}c) = \bar{a}\bar{b}(\bar{c}+c) = \bar{a}\bar{b}
+\end{equation}
+
+\begin{equation}
+	F'_{0's} = (a\bar{b}\bar{c})+(ab\bar{c}) = a\bar{c}(\bar{b}+b) = a\bar{c}
+\end{equation}
+
+
+\begin{equation}
+	F'_{0's final} =  \bar{a}\bar{b} + a\bar{c}
+\end{equation}
+
+\subsubsection{نکته بسیار مهم}
+
+اگر بخواهیم هم
+\lr{PoS}
+و
+\lr{SoP}
+صفر ها و یک را بدست بیاوریم، یا 
+\lr{PoS}
+و
+\lr{SoP}
+از هر دو صفر ها و یک ها میگیریم که در نتیجه آنها را ساده میکنیم و به نتیجه خواهیم رسید یا از 
+میانبر زیر استفاده میکنیم.
+
+
+بدست آوردن 
+\lr{PoS}
+از طریق
+\lr{SoP}:
+
+یک میانبر راحت در این بین وجود دارد و آن هم این است که برای بدست آوردن
+\lr{PoS}\\
+یک ها از تابع مین ترم صفرها استفاده میکنیم و آن را به صورت نقیض شده در نظر خواهیم گرفت.\\
+
+برای بدست آوردن
+\lr{PoS}
+صفر ها از تابع مین ترم یک ها استفاده میکنیم و به صورت نقیض شده آنرا حل میکنیم.
+
+
+\begin{equation}
+	F_{SoP} = \bar{a}b + ac
+\end{equation}
+
+\begin{equation}
+	F'_{SoP} =  \bar{a}\bar{b} + a\bar{c}
+\end{equation}
+
+\begin{equation}
+	F_{PoS} = (a+b) (\bar{a}+c)
+\end{equation}
+
+\begin{equation}
+	F'_{PoS} = (a+\bar{b})(\bar{a}\bar{c})
+\end{equation}
+
+\newpage
+
+مسئله:\\
+حالات مختلف چهار ورودی را در نظر بگیرید و
+\lr{SoP}
+و
+\lr{PoS}
+آنها را بنویسید.
+
+\begin{equation}
+	\prod (3, 7, 10, 11, 15)
+\end{equation}
+
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/karnoughMap/sop_pos_karnough-Page-2.png}}
+\end{figure}
+
+
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/karnoughMap/p1.png}}
+\end{figure}
+
+
+\begin{equation}
+	\bar{c} \rightarrow 1(n)=8 with 1 shared between 
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/karnoughMap/p2.png}}
+\end{figure}
+
+\begin{equation}
+	1: [(\bar{a}\bar{b}c\bar{d}) + (\bar{a}bc\bar{d})] + [(\bar{a}\bar{b}\bar{c}\bar{d})+(\bar{a}b\bar{c}\bar{d})]
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/karnoughMap/p3.png}}
+\end{figure}
+
+
+\begin{equation}
+	2: [(\bar{a}b\bar{c}\bar{d})+(ab\bar{c}\bar{d})] + [(\bar{a}bc\bar{d}) + (abc\bar{d})] 
+\end{equation}
+
+
+\begin{equation}
+	F_{(SoP)} =  [\bar{c}+(\bar{a}\bar{d})+(b\bar{d})]
+\end{equation}
+
+
+
+\newpage
+
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/karnoughMap/p4.png}}
+\end{figure}
+
+
+\lr{$F'_{(SoP)} $}
+
+\begin{equation}
+	[(\bar{a}\bar{b}cd)+(\bar{a}bcd)]+[(abcd)+(a\bar{b}cd)]+[(a\bar{b}cd)+(a\bar{b}c\bar{d})] = (\bar{a}cd+acd)+(a\bar{b}c) 
+\end{equation}
+
+که در نهایت :
+
+\begin{equation}
+	F_{(SoP)} =  \bar{c}+(\bar{a}\bar{d})+(b\bar{d})
+\end{equation}
+
+\begin{equation}
+	F'_{(SoP)} = cd + (a\bar{b}c) 
+\end{equation}
+
+
+
+\begin{equation}
+	F_{(PoS)} = (\bar{c}+\bar{d}) (\bar{a}+b+\bar{c})
+\end{equation}
+
+
+\begin{equation}
+	F'_{(PoS)}  = (c) (a+d) (\bar{b}+d)
+\end{equation}
+
+
+\newpage
+
+\subsection{کارنو با ورودی های زیاد}
+
+استفاده راحت از کارنو مپ تا زمانی است که تعداد ورودی های ما در حد و اندازه 3 تا 4 متغیر باشد
+اما اگر 5 متغیر داشته باشیم تعداد خانه های کارنو ما زیاد و فرم و شکل آن متفاوت خواهد بود.
+چرا که برای مثال در 5 ورودی که 32 خانه داریم بایستی از دو کانوی 16 تایی استفاده کنیم، لازم به 
+ذکر است که این دو کارنو با یکدیگر همپوشانی دارند، یعنی اینکه ممکن است در وسط کارنو اول 
+دارای چهار مقدار 1 باشیم و دقیقا در همان منتطقه در کارنوی دوم آن وضعیت را داشته باشیم به همین خاطر
+میتوانند با یکدیگر مورد بررسی قرار گیرند، منتها در بررسی همچین کارنو هایی باید بسیار دقت داشت که
+به مشکل بر نخوریم چرا که تعداد محاسبه و نوع شکل و قرارگیری کمی پیچیده و پر پیچ و خم است.
+
+مثال:
+
+\begin{equation}
+	\Sigma(1, 4, 9, 11, 13, 15, 17, 19, 22, 25, 27, 29, 30, 31) + d(3, 12, 20)
+\end{equation}
+
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=250pt]{img/karnoughMap/hugeKarnough.png}}
+\end{figure}
+
+خطوط سیاهی که در کارنو ها میبینید 
+به نام 
+\lr{Don't Care}
+هستند که ماهیت خاصی ندارند و تاثیرشان به تنهایی فایده ای نداره،  
+اما اگر در کنار گروهی باشند که وجود یک یا صفر در بین آنها مهم است میتواند در شرایطی هم به صورت 
+یک مورد استفاده قرار گیرند یا به صورت صفر!
+
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=250pt]{img/karnoughMap/hugeKarnoughGrp1.png}}
+\end{figure}
+
+
+\begin{equation}
+	1(n)=4:[(bc\bar{d}e)+(bcde)]+[(b\bar{c}\bar{d}e)+(b\bar{c}de)]= (dce)+(d\bar{c}e) = be
+\end{equation}
+
+
+\begin{equation}
+	1(n)=4:topDown \rightarrow [(b\bar{c}\bar{d}e)+(b\bar{c}de)]+[(\bar{b}\bar{c}\bar{d}e)+(\bar{b}\bar{c}de)]=(b\bar{c}e)+(\bar{b}\bar{c}e)=\bar{c}e
+\end{equation}
+
+\begin{equation}
+	1(n)=4:SideBar \rightarrow [(bcd\bar{e})+(\bar{b}cd\bar{e})] + [(bc\bar{d}\bar{e})+(\bar{b}c\bar{d}\bar{e})] = (cd\bar{e}) + (c\bar{d}\bar{e}) = c\bar{d}
+\end{equation}
+
+
+\begin{equation}
+	F_{(SoP)} = (be)+(\bar{c}e) + (c\bar{d})
+\end{equation}
 
 %\section{گیت ها - منطق سه حالته - هازارد - تکنولوژی های ساخت تراشه}
 

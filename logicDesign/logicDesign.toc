@@ -86,3 +86,6 @@
 \contentsline {subsubsection}{\numberline {2.24.1}سنتز مدار}{75}{subsubsection.2.24.1}%
 \contentsline {subsection}{\numberline {2.25}نحوه ساده سازی به کمک کارنو مپ}{77}{subsection.2.25}%
 \contentsline {subsection}{\numberline {2.26}گروه بندی اعضا در جدول کارنو}{78}{subsection.2.26}%
+\contentsline {subsection}{\numberline {2.27}بدست آوردن \lr {PoS} با \lr {SoP}}{81}{subsection.2.27}%
+\contentsline {subsubsection}{\numberline {2.27.1}نکته بسیار مهم}{82}{subsubsection.2.27.1}%
+\contentsline {subsection}{\numberline {2.28}کارنو با ورودی های زیاد}{86}{subsection.2.28}%
