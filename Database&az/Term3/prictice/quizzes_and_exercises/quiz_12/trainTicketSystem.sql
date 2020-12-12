@@ -19,12 +19,25 @@
 -- );
 
 
-create table payment_details(
-	tnx_id int unsigned auto_increment primary key not null,
-    user_id int unsigned null,
-    ticket_id int unsigned null,
-    tnx_date datetime null,
-    payment_status enum('accepted', 'ignore', 'waiting'),
-    foreign key (user_id) references users(user_id),
-	foreign key (ticket_id) references tickets(ticket_id)
-);
+-- create table payment_details(
+-- 	tnx_id int unsigned auto_increment primary key not null,
+--     user_id int unsigned null,
+--     ticket_id int unsigned null,
+--     tnx_date datetime null,
+--     payment_status enum('accepted', 'ignore', 'waiting'),
+--     foreign key (user_id) references users(user_id),
+-- 	foreign key (ticket_id) references tickets(ticket_id)
+-- );
+
+
+-- use sakila
+
+-- select abs(-25.76823), sign(-25.76823), round(-25.76823, 2)
+
+
+-- select substr('Please find the substring in this string', 17, 9)
+
+
+select customer_id, count(*) from rental group by 1 having count(*) >= 40;
+
+
