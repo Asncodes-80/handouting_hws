@@ -1,10 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  19 NOV 2020 20:08
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  13 DEC 2020 12:51
 entering extended mode
-**d:/MyDoc/ShamsipurUniversity/handouting_hws/Database&az/Term3/prictice/univer
-sityProject/report/final_university_project_report.tex
-
-(d:/MyDoc/ShamsipurUniversity/handouting_hws/Database&az/Term3/prictice/univers
-ityProject/report/final_university_project_report.tex
+**./final_university_project_report.tex
+(final_university_project_report.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18> (C:\mikTex\tex/latex/base\article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -1018,12 +1015,12 @@ Package rerunfilecheck Info: File `final_university_project_report.out' has not
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 14456 strings out of 414071
- 278460 string characters out of 2901731
+ 14455 strings out of 414071
+ 278174 string characters out of 2901731
  653154 words of memory out of 3000000
  31863 multiletter control sequences out of 15000+200000
  542320 words of font info for 88 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 52i,8n,74p,1318b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,8n,74p,1224b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on final_university_project_report.pdf (7 pages).
