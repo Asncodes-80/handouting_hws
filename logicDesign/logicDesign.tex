@@ -3064,10 +3064,171 @@ X
 \begin{equation}
 	F_{(SoP)} = (be)+(\bar{c}e) + (c\bar{d})
 \end{equation}
+\newpage
+
+\section{مدارات ترکیبی}
+
+\subsection{مدار سکویی مجوریتی یا \lr{Majority Circuit}}
+مدار مجوریتی فقط دارای سه ورودی می باشد که خروجی آن براساس تعداد
+اکثریت میباشد، مثلا اگر در این سه ورودی دو ورودی صفر بود نتیجه این مدار
+صفر خواهد بود.
+
+\hfill \break
+
+\begin{LTR}
+	\begin{tabular}{ c c c | c }
+		X & Y & Z & F \\
+		\hline
+		0 & 0 & 0 &  0\\ 				
+		0 & 0 & 1 &  0\\
+		0 & 1 & 0 &  0\\
+		0 & 1 & 1 &  1\\
+		1 & 0 & 0 &  0\\
+		1 & 0 & 1 &  1\\
+		1 & 1 & 0 &  1\\
+		1 & 1 & 1 &  1\\	
+	\end{tabular}
+\end{LTR}
+\hfill \break
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=250pt]{img/lastest/majority.jpg}}
+\end{figure}
+
+
+\newpage
+بدست آوردن تابع مجورتی سادست، اما از طریق جدول کارنو میتوان به این نتیجه رسید:
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=150pt]{img/lastest/mS.jpg}}
+\end{figure}
+
+\begin{equation}
+	F= [(x\bar{y}z)+(xyz)] + [(xyz)+(xy\bar{z})]+ [(\bar{x}yz)+(xyz)]
+\end{equation}
+
+\begin{equation}
+	F = xy+xz+yz
+\end{equation}
+
+به همین خاطر از طریق تابع بالا میتوان به مدار زیر رسید:
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=150pt]{img/lastest/majorityCircuit.jpg}}
+\end{figure}
+\newpage
+
+
+\subsection{مقایسه کننده ها \lr{Comparator}}
+\subsubsection{مقایسه کننده تک بیتی}
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=250pt]{img/lastest/singleBitBDiagram.jpg}}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=250pt]{img/lastest/singleCircuit.jpg}}
+\end{figure}
+
+\newpage
+
+\subsubsection{مقایسه کننده دوبیتی}
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=250pt]{img/lastest/doubleBitBDiagram.jpg}}
+\end{figure}
+
+شرط برابری را معمولا با اکس نور بررسی خواهیم کرد.
+
+\begin{equation}
+	(ab).(\bar{a}\bar{b})
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/lastest/2bitEqual.jpg}}
+\end{figure}
+
+
+\begin{equation}
+	A0<B0 + A1<B1 \rightarrow
+	F = (\bar{A0}.B0)+(\bar{A1}.B1).(A1.B1)
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/lastest/2bitL.jpg}}
+\end{figure}
+
+
+\begin{equation}
+	A0>B0 + A1>B1 \rightarrow (A0.\bar{B0})+(A1.\bar{B1}).(A1.B1)
+\end{equation}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/lastest/2bitG.jpg}}
+\end{figure}
+
+\subsection{\lr{Half Adder}}
+\begin{LTR}
+	\begin{tabular}{ c c | c | c }
+		X & Y & Sum & Carry \\
+		\hline
+		0 & 0 & 0 & 0\\ 				
+		0 & 1 & 1 & 0\\
+		1 & 0 & 1 & 0\\
+		1 & 1 & 0 & 1
+	\end{tabular}
+\end{LTR}
+\hfill \break
+
+بدین معنا که در جمع دو ورودی از الگوی اکس اور استفاده شده و در کری از الگوی And 
+بکار گرفته شده است.
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/lastest/halfAdderPatternCircuit.jpg}}
+\end{figure}
+
+
+\newpage
+\subsection{\lr{Full Adder}}
+
+\begin{LTR}
+	\begin{tabular}{ c c c | c | c }
+		X & Y & Cin & Sum & Cout \\
+		\hline
+		0 & 0 & 0 &  0 &  0\\ 				
+		0 & 0 & 1 &  1 &  0\\
+		0 & 1 & 0 &  1 &  0\\
+		0 & 1 & 1 &  0 &  1\\
+		1 & 0 & 0 &  1 &  0\\
+		1 & 0 & 1 &  0 &  1\\
+		1 & 1 & 0 &  0 &  1\\
+		1 & 1 & 1 &  1 &  1\\	
+	\end{tabular}
+\end{LTR}
+\hfill \break
+
+در جمع
+\lr{Full Adder}
+از الگوی اکس اور و در کری آن از الگوی مجورتی استفاده شده است.
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/lastest/fullAdderXor.jpg}}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/lastest/fullAdderMajority.jpg}}
+\end{figure}
+\newpage
+
+
+
+
+\subsection{\lr{4 Bit Ripple Carry Adder}}
+جمع کننده 4 بیتی کری ها به صورت موج مانند دیاگرام زیر است:
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=250pt]{img/lastest/4bitRippleCarryAdder.jpg}}
+\end{figure}
+
+
+
+
 
 %\section{گیت ها - منطق سه حالته - هازارد - تکنولوژی های ساخت تراشه}
-
-%\section{مدارات ترکیبی}
 
 %\section{لچ ها و فلیپ فلاپ ها}
 
@@ -3078,4 +3239,5 @@ X
 %\section{سنتز مدار با زبان برنامه نویسی وریلاگ}
 
 \end{document}
+
 
