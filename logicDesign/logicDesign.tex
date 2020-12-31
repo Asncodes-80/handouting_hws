@@ -3224,9 +3224,139 @@ X
 	\centerline{\includegraphics[width=250pt]{img/lastest/4bitRippleCarryAdder.jpg}}
 \end{figure}
 
+\subsubsection{تفریق 4 بیتی به صورت موج گونه}
+نکته:
+آن است که در هنگام تفریق ما به روش جمع عمل کنیم بطوری که عملوند اول را با حالت عادی
+و عملوند دوم را به صورت نات شده + 1 در این تفریق به روش جمع حل میکنیم.
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/lastest/4bitSubtractor.jpg}}
+\end{figure}
 
 
+\newpage
 
+\subsection{\lr{Decoders}دیکودر ها}
+دیکودر ها انواع مختلفی دارند، بطوری که با توجه به تعداد ورودی آنها 
+در خروجی تعداد آنها توانی از دو خواهد بود، 
+.مثلا اگر 3 ورودی داشت، 8 خروجی خواهد داشت
+
+در برخی دیکودر ها از ورودی یا پایه ای به نام 
+Enable 
+استفاده میشود و همانطور که از نامش معلوم است 
+به عنوان فعال کننده مدار یا دیکودر بکار گرفته میشود و میتواند دو حالت 0 یا 1 را داشته باشد.
+
+در زیر یک دیکودر دو به چهار آمده است:
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=150pt]{img/lastest/2to4Decoder.jpg}}
+\end{figure}\\
+منطق دیکودر بالا به این صورت است که هر موقع ورودی ها 0 باشد دیکودر 
+صفر روشن خواهد شد، در اصل چینش ورودی ها به صورت 0 تا 3 هست که به صورت 
+باینری با ترتیب در ورود ها وارد میشوند،
+وقتی ورود ها به ترتیب 1 و 0 میشوند دیکودر یک، اگر 0 و 1 شود دیکودر دو و در نهایت
+اگر هر دو ورودی 1 باشد با توجه به عدد حقیقی که 3 میشود دیکودر 3 روشن خواهد شد.\\
+
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=150pt]{img/lastest/decoder1.jpg}}
+\end{figure}
+همان طور که در بالا توضیح دادیم را میتوانیم روی مدار به صورت بولین تبدیل کنیم و به همان نتیجه برسیم.
+لازم به ذکر است که هر حالت به صورت مین ترم نمایش داده میشود.
+
+\begin{LTR}
+	\begin{tabular}{ c c | c  }
+		A & B & Decoder \\
+		\hline
+		$\bar{A}$ & $\bar{B}$ & D0\\ 			
+		A & $\bar{B}$ & D1\\
+		$\bar{A}$ & B & D2\\
+		A & B & D3
+	\end{tabular}
+\end{LTR}
+\hfill \break
+
+پس پایه Enable
+اگر صفر باشد کل مدار هر حالتی که داشته باشد بازم به خروجی صفر
+میرسیم، مانند ورودی برق انگار ورودی برقی وجود ندارد.
+اما اگر 1 باشد حالات مختلف ورودی ها مورد بررسی قرار میگیرد، به همین 
+خاطر Enable
+میتواند به صورت پلی برای تبدیل یا اشاره دو مدار، از آن استفاده کرد.\\
+
+
+دیکودر سه به هشت زیر را در نظر بگیرید.
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=150pt]{img/lastest/decoder3to8.jpg}}
+\end{figure}
+به ازای هر ورودی دیکودر مربوط به آن روشن خواد شد، برای مثال،
+با ورودی 101، یا به صورت بولی یعنی 
+\lr{$A\bar{B}C$}
+دیکودر پنجم روشن خواهد شد و نتیجه 
+\lr{D5}
+را خواهیم داشت.
+به همین ترتیب به ازای هر ورودی از 0 تا 7 که 8 حالت دارد، میتواند And
+گیت های مربوط به هر ورودی را به صورت جداگانه نمایش داد.
+\newpage
+
+\subsubsection{تبدیل}
+با استفاده دیکودر 2 به 4 یک دیکودر سه به هشت ایجاد کنید
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=150pt]{img/lastest/2to4convert3to8.png}}
+\end{figure}
+
+\begin{LTR}
+	\begin{tabular}{ c c c }
+		X & Y & Z\\
+		\hline
+		0  & 0 & 0\\ 				
+		0 & 0 & 1\\
+		0 & 1 & 0\\
+		0 & 1 & 1\\
+		1 & 0 & 0\\
+		1 & 0 & 1\\
+		1 & 1 & 0\\
+		1 & 1 & 1\\	
+	\end{tabular}
+\end{LTR}
+\hfill \break
+
+باتوجه به جدول بالا با سه ورودی خواهیم دید که در چهار مرتبه ورودی
+اکس که مثلا به عنوان بیت فعال کننده ماست صفر است و 4 حالت بعدی 
+یک است، این بدین معناست که هر موقع صفر باشد با توجه ناتی که در مدار استفاده کردیم
+مدار یک میشود و فقط یک مدار در 4 حالت اول خواهیم داشت و بقیه حالت بعدی را با یک 
+که در مدار بعدی داریم در مدار اول دیگر فعال نیست و مدار دوم روشن خواهد بود. این
+طور میتوان به راحتی به دیکودر 3 به 8 دست یافت.
+\newpage
+
+مطلوب است طراحی مدار دیکدر 5 به 32 تحت هر یک از شرایط زیر :
+
+1-با استفاده از یک دیکدر 2:4 و 4 دیکدر 3:8
+
+2-با استفاده از یک دیکدر 3:8 و 8 دیکدر 2:4
+
+3-با استفاده از گیت not و 2 دیکدر 4:16
+
+4- با استفاده از گیت not و 10 دیکدر 2:4
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=250pt]{Decoders/decoder1.png}}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=250pt]{Decoders/decoder2.png}}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=250pt]{Decoders/decoders3.png}}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=250pt]{Decoders/decoders4.png}}
+\end{figure}
+
+\newpage
+
+\subsection{\lr{Encoder}}
 
 %\section{گیت ها - منطق سه حالته - هازارد - تکنولوژی های ساخت تراشه}
 

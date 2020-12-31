@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  30 DEC 2020 20:53
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  31 DEC 2020 12:07
 entering extended mode
 **d:/MyDoc/ShamsipurUniversity/handouting_hws/logicDesign/logicDesign.tex
 (d:/MyDoc/ShamsipurUniversity/handouting_hws/logicDesign/logicDesign.tex
@@ -624,7 +624,12 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 ) [1
 
-] [2] [3])
+] [2] [3]
+Overfull \hbox (2.0781pt too wide) detected at line 103
+ [][][]\TU/XBRoya(0)/m/n/10 ۱۰۰[][][]
+ []
+
+)
 \tf@toc=\write4
 \openout4 = `logicDesign.toc'.
 
@@ -648,12 +653,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 [][]
  []
 
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 [][]
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 [][]
  []
@@ -698,12 +703,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--98
 [][]
  []
 
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 101--109
 [][]
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
 [][]
  []
@@ -713,12 +718,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--124
 [][]
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 174--175
 [][]
  []
 
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 200--203
 [][]
  []
@@ -1429,15 +1434,57 @@ File: img/lastest/fullAdderMajority.jpg Graphic file (type bmp)
 [93]
 File: img/lastest/4bitRippleCarryAdder.jpg Graphic file (type bmp)
 <img/lastest/4bitRippleCarryAdder.jpg>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3241.
+File: img/lastest/4bitSubtractor.jpg Graphic file (type bmp)
+<img/lastest/4bitSubtractor.jpg>
  [94]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3241.
+File: img/lastest/2to4Decoder.jpg Graphic file (type bmp)
+<img/lastest/2to4Decoder.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3249--3258
+[][]
+ []
+
+File: img/lastest/decoder1.jpg Graphic file (type bmp)
+<img/lastest/decoder1.jpg>
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 3276--3277
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3278--3284
+[][]
+ []
+
+File: img/lastest/decoder3to8.jpg Graphic file (type bmp)
+<img/lastest/decoder3to8.jpg>
+[96]
+File: img/lastest/2to4convert3to8.png Graphic file (type bmp)
+<img/lastest/2to4convert3to8.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3321--3322
+[][]
+ []
+
+[97]
+File: Decoders/decoder1.png Graphic file (type bmp)
+<Decoders/decoder1.png>
+File: Decoders/decoder2.png Graphic file (type bmp)
+<Decoders/decoder2.png>
+File: Decoders/decoders3.png Graphic file (type bmp)
+<Decoders/decoders3.png>
+File: Decoders/decoders4.png Graphic file (type bmp)
+<Decoders/decoders4.png>
+ [98] [99]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3371.
+ [100]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3371.
  (logicDesign.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3241.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3241.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3371.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3371.
 
 Package rerunfilecheck Info: File `logicDesign.out' has not changed.
-(rerunfilecheck)             Checksum: 02772BABCF73BC5B31E1573FA71F6B4B;19575.
+(rerunfilecheck)             Checksum: D3B07A8132D5C17B857E17556920B92E;20211.
 
 
 LaTeX Warning: There were undefined references.
@@ -1445,15 +1492,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3241.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3371.
  ) 
 Here is how much of TeX's memory you used:
- 13398 strings out of 414071
- 261908 string characters out of 2901731
+ 13454 strings out of 414071
+ 263303 string characters out of 2901731
  614061 words of memory out of 3000000
- 30778 multiletter control sequences out of 15000+200000
+ 30825 multiletter control sequences out of 15000+200000
  535722 words of font info for 70 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,15n,74p,1267b,442s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on logicDesign.pdf (94 pages).
+Output written on logicDesign.pdf (100 pages).

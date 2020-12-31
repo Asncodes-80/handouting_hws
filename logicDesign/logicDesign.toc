@@ -3,7 +3,7 @@
 \contentsline {subsection}{\numberline {1.2}تبدیل مبنا از 2 به 10 یا بلعکس}{6}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}تبدیل مبنا از 2 به 10}{6}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}تبدیل مبنا از 10 به دو}{6}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}تبدیل مبنا از 10 به هشت و برعکس}{7}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.5}تبدیل مبنا از 10 به هشت و برعکس}{6}{subsection.1.5}%
 \contentsline {subsection}{\numberline {1.6}تبدیل اعداد صحیح از مبنای 10 به 16 و برعکس}{7}{subsection.1.6}%
 \contentsline {subsection}{\numberline {1.7}تبدیل اعشاری دهدهی به دودویی و برعکس}{7}{subsection.1.7}%
 \contentsline {subsection}{\numberline {1.8}تبدیل اعداد مبنای دو به مبنای هشت و برعکس}{9}{subsection.1.8}%
@@ -97,3 +97,7 @@
 \contentsline {subsection}{\numberline {3.3}\lr {Half Adder}}{92}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}\lr {Full Adder}}{93}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}\lr {4 Bit Ripple Carry Adder}}{94}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}تفریق 4 بیتی به صورت موج گونه}{94}{subsubsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.6}\lr {Decoders}دیکودر ها}{95}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}تبدیل}{97}{subsubsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.7}\lr {Encoder}}{100}{subsection.3.7}%
