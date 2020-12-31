@@ -101,3 +101,4 @@
 \contentsline {subsection}{\numberline {3.6}\lr {Decoders}دیکودر ها}{95}{subsection.3.6}%
 \contentsline {subsubsection}{\numberline {3.6.1}تبدیل}{97}{subsubsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.7}\lr {Encoder}}{100}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}\lr {Multiplexer Data Selector}}{103}{subsection.3.8}%
