@@ -3358,6 +3358,125 @@ Enable
 
 \subsection{\lr{Encoder}}
 
+انکودر ها دقیقا برعکس دیکودر ها هستند، مثلا در دیکودر 3 به هشت
+در انکودر به صورت هشت ورودی و سه خروجی است. در انکودر از گیت اور استفاده میشود.
+
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=180pt]{img/lastest/encoder.jpg}}
+\end{figure}
+
+\begin{LTR}
+	\begin{tabular}{ c c c c | c | c }
+		D0 & D1 & D2 & D3 & Q0 & Q1\\
+		\hline
+		1 & 0 & 0 & 0 & 0 & 0\\
+		0 & 1 & 0 & 0 & 0 & \textcolor{blue}{1}\\
+		0 & 0 & 1 & 0 & \textcolor{red}{1} & 0\\
+		0 & 0 & 0 & 1 & \textcolor{red}{1} & \textcolor{blue}{1}\\
+		0 & 0 & 0 & 0 & × & ×
+	\end{tabular}
+\end{LTR}
+\hfill \break
+
+برای کشیدن گیت های انکودر، میتوان از یک های خروجی ها استفاده کرد، 
+یعنی ببینیم که در چه ورودی هایی به نتیجه یک رسیدیم، 
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=180pt]{img/lastest/encoderOrGate.jpg}}
+\end{figure}
+\newpage
+
+یک پایه ای به نام 
+valid
+\textbf{در این مود وجود دارد که 
+OR
+ورودی ها را بر میگرداند.}
+به هر شماره ورودی ای که رسیدیم در خروجی همان را به صورت صفر و یک مینویسیم.
+نکته ای که در این رابطه وجود دارد آن است که قبل هر ورودی میتواند به صورت 
+\lr{Don't care}
+باشد، که در مثال زیر به آن اشاره شده:
+
+\begin{LTR}
+	\begin{tabular}{ c c c c | c | c | c }
+		D3 & D2 & D1 & D0 & Q0 & Q1 & Valid\\
+		\hline
+		0 & 0 & 0 & 0 & 0 & 0 & 0\\
+		0 & 0 & 0 & 1 & 0 & 0 & 1\\
+		0 & 0 & 1 & × & 0 & 1 & 1\\
+		0 & 1 & × & × & 1 & 0 & 1\\
+		1 & × & × & × & 1 & 1 & 1
+	\end{tabular}
+\end{LTR}
+\hfill \break
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=180pt]{img/lastest/encoder1.jpg}}
+\end{figure}
+\newpage
+برای نمونه مسئله زیر را حل کنید.
+
+یک دیکودر هشت ورودی تدارک ببینید و برای خروجی های آن، تابع مناسب را بنویسید.
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=180pt]{img/lastest/encoderProblem.jpg}}
+\end{figure}
+
+\begin{LTR}
+	\begin{tabular}{ c c c c c c c c | c | c | c }
+		D0 & D1 & D2 & D3 & D4 & D5 & D6 & D7 & Q0 & Q1 & Q2\\
+		\hline
+		0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & × & × & ×\\
+		1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+		× & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1\\
+		× & × & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0\\
+		× & × & × & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 1\\
+		× & × & × & × & 1 & 0 & 0 & 0 & 1 & 0 & 0\\
+		× & × & × & × & × & 1 & 0 & 0 & 1 & 0 & 1\\
+		× & × & × & × & × & × & 1 & 0 & 1 & 1 & 0\\
+		× & × & × & × & × & × & × & 1 & 1 & 1 & 1\\
+	\end{tabular}
+\end{LTR}
+\hfill \break
+بررسی قسمت هایی که خروجی ها در آن یک شده اند:\\
+
+\begin{equation}
+	Q0 = D7 + 
+	(\textcolor{red}{\bar{D7}}.D6) + 
+	(\textcolor{red}{\bar{D7}}.\textcolor{red}{\bar{D6}}.D5)+
+	(\textcolor{red}{\bar{D7}}.\textcolor{red}{\bar{D6}}.\textcolor{red}{\bar{D5}}.D4)
+	\rightarrow D7+D6+D5+D4
+\end{equation}
+
+\begin{equation}
+	Q1 = D7 +
+	(\textcolor{red}{\bar{D7}}.D6)+
+	(\textcolor{red}{\bar{D7}}.\textcolor{red}{\bar{D6}}.\bar{D5}.\bar{D4}.D3)+
+	(\textcolor{red}{\bar{D7}}.\textcolor{red}{\bar{D6}}.\bar{D5}.\bar{D4}.\textcolor{red}{\bar{D3}}.D2)
+\end{equation}
+
+\begin{equation}
+	\rightarrow D7+D6+(\bar{D5}\bar{D4}D3)+(\bar{D5}\bar{D4}D2)
+\end{equation}
+
+\begin{equation}
+	Q2 = (\textcolor{red}{\bar{D7}}\bar{D6}\textcolor{red}{\bar{D5}}\bar{D4}\textcolor{red}{\bar{D3}}\bar{D2}D1) +
+	(\textcolor{red}{\bar{D7}}\bar{D6}\textcolor{red}{\bar{D5}}\bar{D4}D3)+
+	(\textcolor{red}{\bar{D7}}\bar{D6}D5)+
+	D7
+\end{equation}
+
+\begin{equation}
+	\rightarrow D7 + (\bar{D6}D5)+ (\bar{D6}\bar{D4}D3)+(\bar{D6}\bar{D4}\bar{D2}D1)
+\end{equation}
+
+
+
+
+
+
+
+
 %\section{گیت ها - منطق سه حالته - هازارد - تکنولوژی های ساخت تراشه}
 
 %\section{لچ ها و فلیپ فلاپ ها}
@@ -3369,5 +3488,6 @@ Enable
 %\section{سنتز مدار با زبان برنامه نویسی وریلاگ}
 
 \end{document}
+
 
 
