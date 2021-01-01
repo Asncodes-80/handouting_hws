@@ -3498,6 +3498,102 @@ OR
 	\centerline{\includegraphics[width=100pt]{img/lastest/mux2to1Circuit.jpg}}
 \end{figure}
 \newpage
+برای مثال با چهار ورودی ما 2 سلکتور و 1 ورودی متناسب به ان خواهیم داشت یعنی جمعا
+3 ورودی 
+برای گیت هایمان.
+مانند تصویر زیر:
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/lastest/MUX4.jpg}}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/lastest/mux4Circuit.jpg}}
+\end{figure}
+
+با MUX
+هشت، 3 سلکتور و 1 ورودی خواهیم داشت:
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/lastest/mux8.jpg}}
+\end{figure}
+\newpage
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/lastest/mux8Circuit.jpg}}
+\end{figure}
+
+تابع ماکس زیر را به فرم 
+\lr{SoP}
+بنویسید:\\
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=100pt]{img/lastest/muxS1.jpg}}
+\end{figure}
+از ماکس بالا میشود متوجه شد که 4 ورودی داریم. 
+به همین خاطر از دو ورودی سلکتور های خود شروع میکنیم به گذاشتن 00 تا 11 تا به ورودی های چپ برسیم و بعد از در جدول کارنو نمایش میدهیم.
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=180pt]{img/lastest/muxS1p.png}}
+\end{figure}
+
+بعد از گروه بندی کردن جدول کارنو شروع به نوشتن تابع ماکس میکنیم:
+
+\begin{equation}
+	F = (ab\bar{c}\bar{d})+(ab\bar{c}d)+(a\bar{b}\bar{c}\bar{d})+(a\bar{b}\bar{c}d)=(a\bar{c})
+\end{equation}
+
+\begin{equation}
+	F = (a\bar{b}\bar{c}\bar{d})+(a\bar{b}\bar{c}d)+(a\bar{b}cd)+(abc\bar{d})=(a\bar{b})
+\end{equation}
+
+\begin{equation}
+	F = (\bar{a}\bar{b}\bar{c}d)+(\bar{a}b\bar{c}d)+(ab\bar{c}d)+(a\bar{b}\bar{c}d) = (\bar{c}d)
+\end{equation}
+
+\begin{equation}
+	F = (\bar{a}\bar{b}cd) + (\bar{a}\bar{b}c\bar{d}) + (\bar{a}\bar{b}c\bar{d})+(\bar{a}bc\bar{d}) = (\bar{a}\bar{b}c)+(\bar{a}c\bar{d})
+\end{equation}
+\begin{equation}
+	F = (a\bar{c}) + (a\bar{b}) +  (\bar{c}d) +(\bar{a}\bar{b}c)+(\bar{a}c\bar{d})
+\end{equation}
+
+
+در مثال زیر ورودی های سلکتور و ورودی ماکس به ترتیب نیست، به همین خاطر
+با همان ترتیبی که نوشته شده جدول کارنوی خود را تشکیل میدهیم،
+و بعدا در نوشتن شماره های مینترم ها با دقت ترتیب را رعایت میکنیم.
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=150pt]{img/lastest/MuxSp2.jpg}}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/lastest/muxSp2.png}}
+\end{figure}
+\newpage
+
+شماره مین ترم های آن:
+\begin{figure}[htbp]\centering
+	\centerline{\includegraphics[width=200pt]{img/lastest/muxSp2-2.png}}
+\end{figure}
+
+\begin{equation}
+	\Sigma_{0, 2, 4, 5, 6, 13, 14, 15}
+\end{equation}
+
+\begin{equation}
+	(\bar{a}\bar{b}\bar{c}\bar{d})+(\bar{a}\bar{b}c\bar{d})+
+	(\bar{a}b\bar{c}\bar{d}) + (\bar{a}bc\bar{d}) \rightarrow (\bar{a}\bar{d})
+\end{equation}
+
+\begin{equation}
+	(\bar{a}b\bar{c}d)+(ab\bar{c}d) = b\bar{c}d
+\end{equation}
+
+\begin{equation}
+	(abcd)+((abc\bar{d})) = abc
+\end{equation}
+
+
+تابع این ماکس:
+\begin{equation}
+	F = (\bar{a}\bar{d})+b\bar{c}d+abc
+\end{equation}
 
 
 
